@@ -1,0 +1,65 @@
+using System;
+using UnityEngine;
+using AbdulRaheem.Game.Shared;
+using System.Collections;
+using Akila.FPSFramework;
+
+namespace AbdulRaheem.Game.Shared
+{
+    public class Health : MonoBehaviour, IDamageable
+    {
+        [SerializeField] private float currentHealth;
+        [SerializeField] private float totalHealth;
+
+        [SerializeField] private bool CantDie;
+        [SerializeField] private float disableDelay = 2f;
+
+        [SerializeField] Damageable AKILLADamageable;
+
+        [SerializeField] GameObject PlayerParent;
+
+        public event Action<float> OnDamage;
+        public event Action OnDeath;
+
+        private void Awake()
+        {
+            currentHealth = totalHealth;
+
+            if (AKILLADamageable != null)
+            {
+                AKILLADamageable.OnDamage_ += TakeDamage;
+                AKILLADamageable.OnDeath_ += Die;
+            }
+        }
+
+        public void TakeDamage(float damage)
+        {
+            Debug.Log(gameObject.name + ": take Damage"); 
+
+            currentHealth -= damage;
+
+            if (currentHealth < 0) currentHealth = 0;
+
+            OnDamage?.Invoke(currentHealth);
+
+            if (currentHealth <= 0) Die();
+        }
+
+        private void Die()
+        {
+            if (CantDie) return;
+
+            OnDeath?.Invoke();
+
+            StartCoroutine(DisableAfterDelay());
+
+            if(PlayerParent != null) Destroy(PlayerParent);
+        }
+
+        private IEnumerator DisableAfterDelay()
+        {
+            yield return new WaitForSeconds(disableDelay);
+            gameObject.SetActive(false);
+        }
+    }
+}
