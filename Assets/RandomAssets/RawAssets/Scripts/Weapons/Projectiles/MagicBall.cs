@@ -42,8 +42,10 @@ namespace AbdulRaheem.Game.Weapons
 
             Debug.Log("2");
 
-            if ((targetLayer & (1 << other.gameObject.layer)) == 0)
-                return;
+            // if ((targetLayer & (1 << other.gameObject.layer)) == 0)
+            //     return;
+
+            if (other.gameObject.layer != targetLayer) return;
 
             Debug.Log("3");
 

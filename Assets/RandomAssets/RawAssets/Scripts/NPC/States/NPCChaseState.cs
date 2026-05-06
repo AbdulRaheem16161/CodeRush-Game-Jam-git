@@ -138,7 +138,7 @@ namespace AbdulRaheem.Game.NPC
             {
                 if (sight.distanceToTarget <= weaponController.MeleeWeaponRange)
                 {
-                    //stateMachine.SwitchState(stateMachine.MeleeAttackState);
+                    stateMachine.SwitchState(stateMachine.MeleeAttackState);
                 }
             }
         }

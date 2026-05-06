@@ -2864,7 +2864,7 @@ GameObject:
   - component: {fileID: 423533947151153703}
   - component: {fileID: 2097050139960251134}
   - component: {fileID: 6695831432631391438}
-  m_Layer: 6
+  m_Layer: 7
   m_Name: ShootingAlien
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4313,7 +4313,7 @@ GameObject:
   - component: {fileID: 6018838032892252218}
   - component: {fileID: 6504658088604357243}
   - component: {fileID: 7954820389426043273}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Sight
   m_TagString: Untagged
   m_Icon: {fileID: 0}

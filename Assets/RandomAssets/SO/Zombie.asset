@@ -14,16 +14,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   <MoveSpeed>k__BackingField: 5
   <ChaseSpeed>k__BackingField: 4
+  <FleeSpeed>k__BackingField: 0
   <MeleeAttackMoveSpeed>k__BackingField: 3
   <RangedAttackMoveSpeed>k__BackingField: 0
   <WaitTimeBetweenPatrolPoints>k__BackingField: 0
   <WaitTimeBetweenRandomPoints>k__BackingField: 2
   <RandomMoveRadius>k__BackingField: 30
   <SightAngle>k__BackingField: 90
-  <SightRange>k__BackingField: 20
+  <SightRange>k__BackingField: 5
   <LostPlayerTimeOut>k__BackingField: 2
   <FlinchDuration>k__BackingField: 0.1
   <FlinchSpeed>k__BackingField: 1
   <MinFindingStateTimer>k__BackingField: 1
   <MaxFindingStateTimer>k__BackingField: 5
   <ChanceOfFindingAfterHearingSound>k__BackingField: 30
+  <FleeTime>k__BackingField: 0
