@@ -3,7 +3,22 @@ guid: e6c4780df682dc740a3c92550a4e432b
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Dark Metamorphic Rock
+    second: {fileID: 2100000, guid: 9bce0518cb96e994cab2eb6d9bb19111, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Soil Ground
+    second: {fileID: 2100000, guid: 7799d75d957a3154abd038835b7d5eb3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: cage
+    second: {fileID: 2100000, guid: e78c24e4190bd054f8ef0c84ab69c1ad, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
