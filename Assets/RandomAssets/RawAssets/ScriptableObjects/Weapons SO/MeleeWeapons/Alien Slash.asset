@@ -13,5 +13,5 @@ MonoBehaviour:
   m_Name: Alien Slash
   m_EditorClassIdentifier: 
   damage: 10
-  range: 5
+  range: 10
   <SlashRate>k__BackingField: 2.33

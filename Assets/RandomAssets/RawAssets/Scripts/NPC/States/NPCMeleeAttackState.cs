@@ -37,7 +37,7 @@ namespace AbdulRaheem.Game.NPC
 
             RotateTowardsTheTarget();
 
-            if (CanAttack() && sight.distanceToTarget < 1.5) animationHandler.TriggerMeleeAttackAnim();   // the Melee Attack Animation Clip calls the function AnimationHandler.PerformMeleeAttack() which invokes
+            if (CanAttack() && sight.distanceToTarget < weaponController.MeleeWeaponRange * 0.5f) animationHandler.TriggerMeleeAttackAnim();   // the Melee Attack Animation Clip calls the function AnimationHandler.PerformMeleeAttack() which invokes
                                                                                                                                         // MeleeAttackAction. this.PerfromAttack() subnscribes to that action and calls  weaponController.TryRangedAttack();
             agent.SetDestination(currentTargetToChase);
         }

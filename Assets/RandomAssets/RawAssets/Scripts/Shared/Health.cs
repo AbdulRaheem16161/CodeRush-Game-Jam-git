@@ -18,6 +18,8 @@ namespace AbdulRaheem.Game.Shared
 
         [SerializeField] GameObject PlayerParent;
 
+        public UnityEngine.AI.NavMeshAgent navMeshAgent;
+
         public event Action<float> OnDamage;
         public event Action OnDeath;
 
@@ -50,6 +52,8 @@ namespace AbdulRaheem.Game.Shared
             if (CantDie) return;
 
             OnDeath?.Invoke();
+
+            navMeshAgent.enabled = false;
 
             StartCoroutine(DisableAfterDelay());
 
