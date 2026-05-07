@@ -46,7 +46,7 @@ namespace AbdulRaheem.Game.Weapons
             Debug.Log("WeaponController : tried Attacking");
             if (currentRangedWeapon != null)
             {
-                currentRangedWeapon.Shoot(firePoint, targetLayer);
+                //currentRangedWeapon.Shoot(firePoint, targetLayer);
             }
             else if (currentMeleedWeapon != null)
             {

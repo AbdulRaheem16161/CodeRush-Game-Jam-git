@@ -36,32 +36,25 @@ namespace AbdulRaheem.Game.Weapons
 
         private void OnTriggerEnter(Collider other)
         {
+
             Debug.Log("1");
-            if (hasHit)
-                return;
-
-            Debug.Log("2");
-
-            // if ((targetLayer & (1 << other.gameObject.layer)) == 0)
-            //     return;
-
-            if (other.gameObject.layer != targetLayer) return;
-
-            Debug.Log("3");
-
-            hasHit = true;
-
             IDamageable damageable = other.GetComponent<IDamageable>();
 
             if (damageable != null)
             {
-
+                
                 Debug.Log("4");
+
+                Debug.Log("doing damage: " + damage + " on the player");
                 damageable.TakeDamage(damage);
+
+                if (other.gameObject.layer == targetLayer){
+
+                    Destroy(gameObject);
+                }
             }
 
             Debug.Log("5");
-            Destroy(gameObject);
         }
     }
 }

@@ -804,6 +804,7 @@ MonoBehaviour:
   turnOnGizmos: 1
   meleeGizmoColor: {r: 1, g: 0, b: 0, a: 1}
   rangedGizmoColor: {r: 0, g: 0, b: 0, a: 1}
+  Player: {fileID: 0}
 --- !u!1 &1761023283376411047
 GameObject:
   m_ObjectHideFlags: 0

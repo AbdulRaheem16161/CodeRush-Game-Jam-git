@@ -26,6 +26,8 @@ namespace AbdulRaheem.Game.Weapons
         [SerializeField] private Color meleeGizmoColor = Color.red;
         [SerializeField] private Color rangedGizmoColor = Color.cyan;
 
+        public GameObject player;
+
         private void Awake()
         {
             if (MeleeWeaponDefination != null)
@@ -39,6 +41,8 @@ namespace AbdulRaheem.Game.Weapons
                 RangedWeaponRange = RangedWeaponDefination.Range;
                 rangedWeapon = new WeaponRanged(RangedWeaponDefination);
             }
+
+            player = GameObject.FindWithTag("PlayerPointToTarget");
         }
 
         public void PerformMeleeAttack()
@@ -49,7 +53,7 @@ namespace AbdulRaheem.Game.Weapons
 
         public void PerformRangedAttack()
         {
-            rangedWeapon.Shoot(firePoint, targetLayer);
+            rangedWeapon.Shoot(firePoint, player.transform, targetLayer);
         }
 
         // Getters
