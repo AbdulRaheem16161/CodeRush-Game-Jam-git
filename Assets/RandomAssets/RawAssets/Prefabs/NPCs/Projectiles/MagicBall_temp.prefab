@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 4161336143268123343}
   - component: {fileID: 5234006558546115125}
   - component: {fileID: -6532386075608530663}
+  - component: {fileID: 8446618159233956143}
   m_Layer: 0
   m_Name: MagicBall_temp
   m_TagString: Untagged
@@ -159,3 +160,18 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &8446618159233956143
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4621793251383264031}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cc94b13a1d7622c438f4098ededa7f72, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: '::'
+  playerPoint: {fileID: 0}
+  destroyDistance: 1
+  destroyDelay: 0.025

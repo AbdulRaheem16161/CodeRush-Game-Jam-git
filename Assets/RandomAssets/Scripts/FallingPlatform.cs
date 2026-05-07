@@ -43,7 +43,7 @@ public class FallingPlatform : MonoBehaviour
         // Testing key
         if (Input.GetKeyDown(KeyCode.R))
         {
-            TryActivate();
+          //  TryActivate();
         }
     }
 

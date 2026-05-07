@@ -20,6 +20,12 @@ namespace AbdulRaheem.Game.NPC
         private float zigZagUpdateRate = 0.2f;
         private float zigZagStrength = 6;
         private float zigZagSpeed = 2;
+
+
+        private Vector3 lastSetDestination;
+        private float destinationUpdateRate = 0.2f;
+        private float destinationTimer;
+        private float targetChangeThreshold = 2.5f;
         #endregion
 
         public override void Enter()
@@ -68,7 +74,7 @@ namespace AbdulRaheem.Game.NPC
             }
             else
             {
-                stateMachine.Agent.SetDestination(currentTargetToChase);
+                HandleNormalChaseMovement(deltaTime);
             }
 
             #endregion
@@ -89,32 +95,56 @@ namespace AbdulRaheem.Game.NPC
 
         private void HandleZigZagMovement(float deltaTime)
         {
-            #region ZigZag Movement
-
             zigZagTimer += deltaTime;
             zigZagPhase += deltaTime * zigZagSpeed;
 
+            Vector3 direction =
+                (currentTargetToChase - npcTransform.position).normalized;
+
+            Vector3 perpendicular =
+                Vector3.Cross(direction, Vector3.up);
+
+            float zigzag =
+                Mathf.Sin(zigZagPhase) * zigZagStrength;
+
+            // 🔥 NEW FIX: stabilize forward movement (IMPORTANT)
+            Vector3 forwardStep = direction * 3.5f;
+
+            Vector3 zigOffset = perpendicular * zigzag;
+
+            Vector3 desiredTarget = npcTransform.position + forwardStep + zigOffset;
+
+            // ======================================================
+            // 🔥 CRITICAL FIX: DON'T override if agent is on link
+            // ======================================================
+         //   if (stateMachine.Agent.isOnOffMeshLink)
+              //  return;
+
+            // ======================================================
+            // 🔥 CRITICAL FIX #2: avoid spam updates
+            // ======================================================
             if (zigZagTimer >= zigZagUpdateRate)
             {
                 zigZagTimer = 0f;
 
-                // Direction to target
-                Vector3 direction = (currentTargetToChase - npcTransform.position).normalized;
-
-                // Perpendicular direction
-                Vector3 perpendicular = Vector3.Cross(direction, Vector3.up);
-
-                // CONSTANT zigzag (no time weirdness)
-                float zigzag = Mathf.Sin(zigZagPhase) * zigZagStrength;
-
-                // 🔥 KEY FIX: offset from NPC, not target
-                Vector3 forward = direction * 2f; // keeps moving forward
-                Vector3 finalTarget = npcTransform.position + forward + (perpendicular * zigzag);
-
-                stateMachine.Agent.SetDestination(finalTarget);
+                stateMachine.Agent.SetDestination(desiredTarget);
             }
+        }
 
-            #endregion
+        private void HandleNormalChaseMovement(float deltaTime)
+        {
+            destinationTimer += deltaTime;
+
+            // how far target moved since last update
+            float targetMovedDistance = Vector3.Distance(currentTargetToChase, lastSetDestination);
+
+            if (destinationTimer >= destinationUpdateRate || targetMovedDistance > targetChangeThreshold)
+            {
+                stateMachine.Agent.SetDestination(currentTargetToChase);
+
+                lastSetDestination = currentTargetToChase;
+                destinationTimer = 0f;
+            }
         }
 
         protected override void ChecksForSwitchingState()

@@ -6,6 +6,10 @@ namespace AbdulRaheem.Game.Weapons
     public class NPCWeaponController : MonoBehaviour
     {
         [Header("References")]
+
+        public GuardArcShooter arcShooter;
+        public bool useArcShooter = false;
+
         [field: SerializeField] public WeaponMeleeDefination MeleeWeaponDefination { get; private set; }
         [field: SerializeField] public WeaponRangedDefination RangedWeaponDefination { get; private set; }
 
@@ -53,7 +57,14 @@ namespace AbdulRaheem.Game.Weapons
 
         public void PerformRangedAttack()
         {
-            rangedWeapon.Shoot(firePoint, player.transform, targetLayer);
+            if (useArcShooter && arcShooter != null)
+            {
+                arcShooter.Shoot();
+            }
+            else
+            {
+                rangedWeapon.Shoot(firePoint, player.transform, targetLayer);
+            }
         }
 
         // Getters

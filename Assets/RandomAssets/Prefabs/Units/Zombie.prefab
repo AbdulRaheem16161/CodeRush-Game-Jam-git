@@ -275,7 +275,7 @@ MonoBehaviour:
   eyes: {fileID: 7428318170061446238}
   targetLayer:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 64
   obstacleLayer:
     serializedVersion: 2
     m_Bits: 0
@@ -3302,10 +3302,11 @@ MonoBehaviour:
   firePoint: {fileID: 1679185595145457488}
   targetLayer:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 64
   turnOnGizmos: 1
   meleeGizmoColor: {r: 1, g: 0, b: 0, a: 1}
   rangedGizmoColor: {r: 0, g: 0, b: 0, a: 1}
+  player: {fileID: 0}
 --- !u!1 &5898078371451223166
 GameObject:
   m_ObjectHideFlags: 0
@@ -4175,6 +4176,7 @@ GameObject:
   - component: {fileID: 8906550402825363186}
   - component: {fileID: 7603138936257363472}
   - component: {fileID: 8781483892202765269}
+  - component: {fileID: 4251698573942337564}
   m_Layer: 0
   m_Name: Zombie
   m_TagString: Untagged
@@ -4312,6 +4314,44 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   objectToStick: {fileID: 8766162746439241358}
+--- !u!114 &4251698573942337564
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7582320697821336345}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 03bc8063c9e95401f9a8a38bc716750d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.AI.Navigation.Samples::Unity.AI.Navigation.Samples.AgentLinkMover
+  jumpSpeedMultiplier: 3
+  m_Method: 2
+  m_Curve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 2
+      outSlope: 2
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1 &7803482030154152093
 GameObject:
   m_ObjectHideFlags: 0

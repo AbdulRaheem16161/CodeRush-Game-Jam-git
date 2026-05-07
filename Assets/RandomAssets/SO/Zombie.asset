@@ -20,8 +20,8 @@ MonoBehaviour:
   <WaitTimeBetweenPatrolPoints>k__BackingField: 0
   <WaitTimeBetweenRandomPoints>k__BackingField: 2
   <RandomMoveRadius>k__BackingField: 30
-  <SightAngle>k__BackingField: 90
-  <SightRange>k__BackingField: 5
+  <SightAngle>k__BackingField: 360
+  <SightRange>k__BackingField: 500
   <LostPlayerTimeOut>k__BackingField: 2
   <FlinchDuration>k__BackingField: 0.1
   <FlinchSpeed>k__BackingField: 1
