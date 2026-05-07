@@ -77,9 +77,9 @@ MonoBehaviour:
     m_ColorSpace: -1
     m_NumColorKeys: 2
     m_NumAlphaKeys: 3
-  low: 5
-  high: 35
-  heightFogIntensity: 0.581
+  low: 0
+  high: 500
+  heightFogIntensity: 0.57
   cameraRelativePosition: 0
   distanceHeightBlend: 0.5
   renderEvent: 550
@@ -135,9 +135,9 @@ Material:
     - _DistanceFogIntensity: 0.5
     - _DistanceHeightBlend: 0.5
     - _Far: 150
-    - _HeightFogIntensity: 0.581
-    - _HighWorldY: 35
-    - _LowWorldY: 5
+    - _HeightFogIntensity: 0.57
+    - _HighWorldY: 500
+    - _LowWorldY: 0
     - _Near: 30
     m_Colors: []
   m_BuildTextureStacks: []
