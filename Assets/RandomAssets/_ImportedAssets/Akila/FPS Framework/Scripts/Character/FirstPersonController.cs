@@ -34,7 +34,7 @@ namespace Akila.FPSFramework
         [Tooltip("How high the player can jump.")]
         public float jumpHeight = 6;
 
-        [Tooltip("Player’s height when crouched.")]
+        [Tooltip("Playerï¿½s height when crouched.")]
         public float crouchHeight = 1.5f;
 
         public float crouchTime = 0.1f;
@@ -78,7 +78,7 @@ namespace Akila.FPSFramework
 
         [Header("Camera")]
         [FormerlySerializedAs("_Camera")]
-        [Tooltip("Reference to the player’s camera transform.")]
+        [Tooltip("Reference to the playerï¿½s camera transform.")]
         public Transform cameraTransform;
 
         [Tooltip("Maximum upward camera rotation in degrees.")]
@@ -177,6 +177,12 @@ namespace Akila.FPSFramework
         private Speedometer speedometer;
 
         private bool onMovingPlatform;
+
+
+        [Header("Jump Assist")]
+        public float coyoteTime = 0.15f;
+
+        private float coyoteTimeCounter;
 
         protected virtual void Awake()
         {
@@ -363,36 +369,82 @@ namespace Akila.FPSFramework
             isCrouching = CharacterInput.CrouchInput;
             ApplyCrouching();
 
+
+
+
+
+
+
+
+
+
             //update gravity and jumping
             if (controller.isGrounded)
             {
-                //set small force when grounded in order to staplize the controller
+                // Reset coyote timer while grounded
+                coyoteTimeCounter = coyoteTime;
+
+                // Small downward force to stabilize grounding
                 currentGravityForce = Physics.gravity.y * stickToGroundForce;
 
-                //check jumping input
+                // Jump
                 if (CharacterInput.JumpInput)
                 {
                     attemptedToJump = true;
 
                     onJump?.Invoke();
 
-                    //update velocity in order to jump
                     currentGravityForce += jumpHeight - currentGravityForce;
 
-                    //play jump sound
+                    // Kill coyote time after jump
+                    coyoteTimeCounter = 0;
+
+                    // Play jump sound
                     if (jumpSFX)
                         jumpAudio.Play(true);
                 }
-                
+
                 velocity.y = currentGravityForce;
             }
             else if (velocity.magnitude * 3.5f < maxFallSpeed)
             {
-                //add gravity
+                // Countdown coyote timer after leaving ground
+                coyoteTimeCounter -= Time.deltaTime;
+
+                // Allow jump slightly after leaving platform
+                if (CharacterInput.JumpInput && coyoteTimeCounter > 0)
+                {
+                    attemptedToJump = true;
+
+                    onJump?.Invoke();
+
+                    currentGravityForce += jumpHeight - currentGravityForce;
+
+                    // Prevent double coyote jumps
+                    coyoteTimeCounter = 0;
+
+                    if (jumpSFX)
+                        jumpAudio.Play(true);
+                }
+
+                // Gravity
                 currentGravityForce += Physics.gravity.y * gravity * Time.deltaTime;
 
                 velocity.y = currentGravityForce;
             }
+
+
+
+
+
+
+
+
+
+
+
+
+
 
             if (controller.isGrounded)
             {
