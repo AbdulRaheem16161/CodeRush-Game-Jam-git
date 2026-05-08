@@ -360,7 +360,7 @@ namespace Akila.FPSFramework
 
             if (Actor != null)
             {
-                Actor.Respawn(SpawnManager.Instance.respawnDelay);
+                //Actor.Respawn(SpawnManager.Instance.respawnDelay);
             }
         }
 
