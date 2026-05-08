@@ -3,6 +3,7 @@ using UnityEngine;
 using AbdulRaheem.Game.Shared;
 using System.Collections;
 using Akila.FPSFramework;
+using UnityEngine.UI;
 
 namespace AbdulRaheem.Game.Shared
 {
@@ -14,15 +15,15 @@ namespace AbdulRaheem.Game.Shared
 
         [SerializeField] private bool CantDie;
         [SerializeField] private float disableDelay = 2f;
-
         [SerializeField] Damageable AKILLADamageable;
 
         [SerializeField] GameObject PlayerParent;
 
         public UnityEngine.AI.NavMeshAgent navMeshAgent;
-
         public event Action<float> OnDamage;
         public event Action OnDeath;
+
+        public Image healthBarImage;
 
         private void Awake()
         {
@@ -40,6 +41,11 @@ namespace AbdulRaheem.Game.Shared
             Debug.Log(gameObject.name + ": take Damage"); 
 
             currentHealth -= damage;
+
+            if (healthBarImage != null)
+            {
+                healthBarImage.fillAmount = currentHealth / totalHealth;
+            }
 
             if (currentHealth < 0) currentHealth = 0;
 

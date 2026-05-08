@@ -9,6 +9,7 @@ namespace AbdulRaheem.Game.Weapons
         [SerializeField] private float damage = 10f;
         [SerializeField] private float lifeTime = 5f;
         [SerializeField] private LayerMask targetLayer;
+        [SerializeField] private LayerMask obstacleLayer;
 
         private bool hasHit;
 
@@ -36,6 +37,10 @@ namespace AbdulRaheem.Game.Weapons
 
         private void OnTriggerEnter(Collider other)
         {
+            if (((1 << other.gameObject.layer) & obstacleLayer) != 0)
+            {
+                Destroy(gameObject);
+            }
 
             Debug.Log("1");
             IDamageable damageable = other.GetComponent<IDamageable>();

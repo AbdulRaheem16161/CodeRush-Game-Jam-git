@@ -10,10 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6eeec41da3d1e4d488574d967a0a2151, type: 3}
-  m_Name: Allien EnergyBall
+  m_Name: CatAllien Arc EnergyBall 1
   m_EditorClassIdentifier: 
   damage: 10
-  range: 50
+  range: 45
   projectilePrefab: {fileID: 4621793251383264031, guid: d6db45f21055df447ae0a82da2d8a57a, type: 3}
   speed: 30
   fireRate: 2.35

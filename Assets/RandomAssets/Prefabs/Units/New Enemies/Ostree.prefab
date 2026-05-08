@@ -536,6 +536,7 @@ MonoBehaviour:
   CurrentState: 
   HasHeardSound: 0
   IsBeingWatched: 0
+  ForceToRandomMovement: 0
 --- !u!195 &2345066648784368929
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -570,6 +571,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b6b9194f63f9fb046934c51a799babe0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  <Type>k__BackingField: 
   currentHealth: 100
   totalHealth: 100
   CantDie: 0
@@ -577,6 +579,7 @@ MonoBehaviour:
   AKILLADamageable: {fileID: 6806541212173399195}
   PlayerParent: {fileID: 0}
   navMeshAgent: {fileID: 2345066648784368929}
+  healthBarImage: {fileID: 0}
 --- !u!136 &1733173971692603350
 CapsuleCollider:
   m_ObjectHideFlags: 0

@@ -33,7 +33,11 @@ namespace AbdulRaheem.Game.Weapons
 
                 if (damageable != null)
                 {
-                    if (damageable.Type != "Player") return;
+                    if (damageable.Type != "Player")
+                    {
+                        Debug.Log("Damage not applied to non-Player entity");
+                        return;
+                    }
                     Debug.Log("TakeDamage");
                 }
                 damageable?.TakeDamage(damage);
