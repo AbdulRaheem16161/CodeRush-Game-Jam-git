@@ -13,12 +13,12 @@ MonoBehaviour:
   m_Name: Zombie
   m_EditorClassIdentifier: 
   <MoveSpeed>k__BackingField: 5
-  <ChaseSpeed>k__BackingField: 4
+  <ChaseSpeed>k__BackingField: 5
   <FleeSpeed>k__BackingField: 0
-  <MeleeAttackMoveSpeed>k__BackingField: 3
-  <RangedAttackMoveSpeed>k__BackingField: 0
+  <MeleeAttackMoveSpeed>k__BackingField: 4.3
+  <RangedAttackMoveSpeed>k__BackingField: 10
   <WaitTimeBetweenPatrolPoints>k__BackingField: 0
-  <WaitTimeBetweenRandomPoints>k__BackingField: 2
+  <WaitTimeBetweenRandomPoints>k__BackingField: 0
   <RandomMoveRadius>k__BackingField: 30
   <SightAngle>k__BackingField: 360
   <SightRange>k__BackingField: 500

@@ -174,5 +174,10 @@ namespace AbdulRaheem.Game.NPC
                 Gizmos.DrawLine(eyes.position, detectedTarget.position);
             }
         }
+
+        public void NullifyTarget()
+        {
+            detectedTarget = null;
+        }
     }
 }

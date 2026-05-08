@@ -114,15 +114,6 @@ namespace AbdulRaheem.Game.NPC
 
             Vector3 desiredTarget = npcTransform.position + forwardStep + zigOffset;
 
-            // ======================================================
-            // 🔥 CRITICAL FIX: DON'T override if agent is on link
-            // ======================================================
-         //   if (stateMachine.Agent.isOnOffMeshLink)
-              //  return;
-
-            // ======================================================
-            // 🔥 CRITICAL FIX #2: avoid spam updates
-            // ======================================================
             if (zigZagTimer >= zigZagUpdateRate)
             {
                 zigZagTimer = 0f;

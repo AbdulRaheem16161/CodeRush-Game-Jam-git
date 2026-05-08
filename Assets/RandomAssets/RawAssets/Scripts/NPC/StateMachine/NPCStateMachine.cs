@@ -74,6 +74,8 @@ namespace AbdulRaheem.Game.NPC
 
         public bool HasHeardSound;
         public bool IsBeingWatched;
+
+        public bool ForceToRandomMovement;  
         
         protected void Awake()
         {

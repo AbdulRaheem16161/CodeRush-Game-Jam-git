@@ -82,6 +82,13 @@ namespace AbdulRaheem.Game.NPC
         {
             base.ChecksForSwitchingState();
 
+            
+            if (stateMachine.ForceToRandomMovement)
+            {
+                return;  
+            }
+
+
             // patrol movement to chase state
             if (TargetDetected() && stateMachine.CanChase)
             {

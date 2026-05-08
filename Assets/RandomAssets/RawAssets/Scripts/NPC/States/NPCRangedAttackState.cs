@@ -64,6 +64,11 @@ namespace AbdulRaheem.Game.NPC
             {
                 stateMachine.SwitchState(stateMachine.IdleState);
             }
+
+            if(stateMachine.ForceToRandomMovement)
+            {
+                stateMachine.SwitchState(stateMachine.IdleState);
+            }
         }
 
         private bool CanAttack()
