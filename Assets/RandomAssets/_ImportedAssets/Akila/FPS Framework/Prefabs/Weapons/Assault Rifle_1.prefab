@@ -605,7 +605,7 @@ MonoBehaviour:
   soundRadius: 50
   zombieLayer:
     serializedVersion: 2
-    m_Bits: 128
+    m_Bits: 0
   alertMemoryTime: 3
   showGizmos: 1
   normalColor: {r: 0, g: 1, b: 0, a: 1}
@@ -1298,7 +1298,7 @@ MonoBehaviour:
   range: 1.3
   layerMask:
     serializedVersion: 2
-    m_Bits: 43063
+    m_Bits: 4294967295
   position: {x: 0, y: 0.06, z: -0.26}
   rotation: {x: -66.91, y: 0, z: 0}
 --- !u!1 &1520115838153085188

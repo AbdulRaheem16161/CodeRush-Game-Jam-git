@@ -445,7 +445,7 @@ SkinnedMeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: -876546973899608171, guid: 0392ad5188ec61545b5b7f77789a7dfb, type: 3}
+  - {fileID: 2100000, guid: 6c5908fa170c2f94cafd32cf83021d63, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1706,7 +1706,7 @@ MonoBehaviour:
   firePoint: {fileID: 7705077296090224373}
   targetLayer:
     serializedVersion: 2
-    m_Bits: 64
+    m_Bits: 0
   turnOnGizmos: 1
   meleeGizmoColor: {r: 1, g: 0, b: 0, a: 1}
   rangedGizmoColor: {r: 0, g: 0, b: 0, a: 1}
@@ -3183,7 +3183,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetLayer:
     serializedVersion: 2
-    m_Bits: 64
+    m_Bits: 0
   gizmosDuration: 0.2
 --- !u!1 &3813784127324386393
 GameObject:
@@ -5132,7 +5132,7 @@ MonoBehaviour:
   eyes: {fileID: 357723650616091792}
   targetLayer:
     serializedVersion: 2
-    m_Bits: 64
+    m_Bits: 0
   obstacleLayer:
     serializedVersion: 2
     m_Bits: 0

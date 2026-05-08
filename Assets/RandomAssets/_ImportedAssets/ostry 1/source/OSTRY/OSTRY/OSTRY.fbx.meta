@@ -3,7 +3,22 @@ guid: 6eb779517cd11344096090add169d2d3
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BLACK CLAWS
+    second: {fileID: 2100000, guid: d1b68230a1446b548a19c8e3c3265a04, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: EYE
+    second: {fileID: 2100000, guid: 80626632fe1fd714ba9fef23c168ea5b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: OSTRY
+    second: {fileID: 2100000, guid: 7f22d87711e143144883e83d09c3e2a7, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
