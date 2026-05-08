@@ -40,10 +40,12 @@ namespace AbdulRaheem.Game.Weapons
             Debug.Log("1");
             IDamageable damageable = other.GetComponent<IDamageable>();
 
+
             if (damageable != null)
             {
                 
                 Debug.Log("4");
+                if (damageable.Type != "Player") return;
 
                 Debug.Log("doing damage: " + damage + " on the player");
                 damageable.TakeDamage(damage);

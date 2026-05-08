@@ -28,8 +28,12 @@ namespace AbdulRaheem.Game.Weapons
                 if (dot < 0.5f) continue;
 
                 IDamageable damageable = hit.GetComponent<IDamageable>();
+
+                
+
                 if (damageable != null)
                 {
+                    if (damageable.Type != "Player") return;
                     Debug.Log("TakeDamage");
                 }
                 damageable?.TakeDamage(damage);

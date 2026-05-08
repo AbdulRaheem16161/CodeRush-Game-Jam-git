@@ -8,6 +8,7 @@ namespace AbdulRaheem.Game.Shared
 {
     public class Health : MonoBehaviour, IDamageable
     {
+        [field : SerializeField] public string Type { get; set; }
         [SerializeField] private float currentHealth;
         [SerializeField] private float totalHealth;
 

@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6eeec41da3d1e4d488574d967a0a2151, type: 3}
-  m_Name: Allien EnergyBall
+  m_Name: CatAllien Arc EnergyBall 1
   m_EditorClassIdentifier: 
   damage: 10
   range: 20
