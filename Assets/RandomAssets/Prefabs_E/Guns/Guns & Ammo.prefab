@@ -52,17 +52,21 @@ PrefabInstance:
       propertyPath: m_Name
       value: 7.62mm Ammo
       objectReference: {fileID: 0}
+    - target: {fileID: 5483246504815005368, guid: d7a92a032c26a6e429594c985d6d3b89, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5899641738726117716, guid: d7a92a032c26a6e429594c985d6d3b89, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -24.925297
+      value: -1.23
       objectReference: {fileID: 0}
     - target: {fileID: 5899641738726117716, guid: d7a92a032c26a6e429594c985d6d3b89, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.78
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5899641738726117716, guid: d7a92a032c26a6e429594c985d6d3b89, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -46.12864
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5899641738726117716, guid: d7a92a032c26a6e429594c985d6d3b89, type: 3}
       propertyPath: m_LocalRotation.w
@@ -143,15 +147,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3038335592196675646, guid: 21e9684a6af38734d96c7c5344a73eef, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -15.798957
+      value: 1.231
       objectReference: {fileID: 0}
     - target: {fileID: 3038335592196675646, guid: 21e9684a6af38734d96c7c5344a73eef, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.357
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3038335592196675646, guid: 21e9684a6af38734d96c7c5344a73eef, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -49.48059
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3038335592196675646, guid: 21e9684a6af38734d96c7c5344a73eef, type: 3}
       propertyPath: m_LocalRotation.w
@@ -207,17 +211,21 @@ PrefabInstance:
       propertyPath: m_Name
       value: Gernade Pickable (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 913921990138361939, guid: 50290b5c671fc9a4797001b30243452c, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 913921990320509334, guid: 50290b5c671fc9a4797001b30243452c, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -11.630121
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 913921990320509334, guid: 50290b5c671fc9a4797001b30243452c, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.46
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 913921990320509334, guid: 50290b5c671fc9a4797001b30243452c, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -42.451683
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 913921990320509334, guid: 50290b5c671fc9a4797001b30243452c, type: 3}
       propertyPath: m_LocalRotation.w
@@ -269,17 +277,21 @@ PrefabInstance:
       propertyPath: m_Name
       value: Gernade Pickable (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 913921990138361939, guid: 50290b5c671fc9a4797001b30243452c, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 913921990320509334, guid: 50290b5c671fc9a4797001b30243452c, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -7.440753
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 913921990320509334, guid: 50290b5c671fc9a4797001b30243452c, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.36
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 913921990320509334, guid: 50290b5c671fc9a4797001b30243452c, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -47.132404
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 913921990320509334, guid: 50290b5c671fc9a4797001b30243452c, type: 3}
       propertyPath: m_LocalRotation.w
@@ -329,15 +341,15 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1826214784266572112, guid: 13c26d8b7b0d3d345962e08d9a78f6c5, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -25.514622
+      value: -1.06
       objectReference: {fileID: 0}
     - target: {fileID: 1826214784266572112, guid: 13c26d8b7b0d3d345962e08d9a78f6c5, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.0900003
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1826214784266572112, guid: 13c26d8b7b0d3d345962e08d9a78f6c5, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -43.561962
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1826214784266572112, guid: 13c26d8b7b0d3d345962e08d9a78f6c5, type: 3}
       propertyPath: m_LocalRotation.w
@@ -420,17 +432,21 @@ PrefabInstance:
       propertyPath: m_Name
       value: Assult Rifle_1 Pickable
       objectReference: {fileID: 0}
+    - target: {fileID: 8065355004949804945, guid: 1698b00eb7f178a46b2621d3e14ccade, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8065355006378122836, guid: 1698b00eb7f178a46b2621d3e14ccade, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -13.335452
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8065355006378122836, guid: 1698b00eb7f178a46b2621d3e14ccade, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.16184857
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8065355006378122836, guid: 1698b00eb7f178a46b2621d3e14ccade, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -49.66667
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8065355006378122836, guid: 1698b00eb7f178a46b2621d3e14ccade, type: 3}
       propertyPath: m_LocalRotation.w
@@ -484,15 +500,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2208986031204493684, guid: f1537c3c8f737064093ed5231976e6f7, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -10.234959
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2208986031204493684, guid: f1537c3c8f737064093ed5231976e6f7, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.04
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2208986031204493684, guid: f1537c3c8f737064093ed5231976e6f7, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -47.45743
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2208986031204493684, guid: f1537c3c8f737064093ed5231976e6f7, type: 3}
       propertyPath: m_LocalRotation.w
@@ -544,17 +560,21 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sniper_1 Pickable
       objectReference: {fileID: 0}
+    - target: {fileID: 2044694923625134274, guid: 25713e62f4e3b444bb96bba0adf20e98, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2044694924407722247, guid: 25713e62f4e3b444bb96bba0adf20e98, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -13.637888
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2044694924407722247, guid: 25713e62f4e3b444bb96bba0adf20e98, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.07
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2044694924407722247, guid: 25713e62f4e3b444bb96bba0adf20e98, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -46.822655
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2044694924407722247, guid: 25713e62f4e3b444bb96bba0adf20e98, type: 3}
       propertyPath: m_LocalRotation.w
@@ -606,17 +626,21 @@ PrefabInstance:
       propertyPath: m_Name
       value: Gernade Pickable
       objectReference: {fileID: 0}
+    - target: {fileID: 913921990138361939, guid: 50290b5c671fc9a4797001b30243452c, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 913921990320509334, guid: 50290b5c671fc9a4797001b30243452c, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -9.777259
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 913921990320509334, guid: 50290b5c671fc9a4797001b30243452c, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.43
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 913921990320509334, guid: 50290b5c671fc9a4797001b30243452c, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -49.206974
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 913921990320509334, guid: 50290b5c671fc9a4797001b30243452c, type: 3}
       propertyPath: m_LocalRotation.w

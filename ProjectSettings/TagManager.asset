@@ -5,6 +5,8 @@ TagManager:
   serializedVersion: 3
   tags:
   - CinemachineTarget
+  - Car
+  - PlayerPointToTarget
   layers:
   - Default
   - TransparentFX
@@ -12,12 +14,12 @@ TagManager:
   - 
   - Water
   - UI
-  - drivable
+  - 
   - carbody
-  - SphereRB
+  - Player
   - 
   - 
-  - 
+  - Obstacle
   - 
   - 
   - 

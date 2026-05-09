@@ -9,8 +9,8 @@ EditorBuildSettings:
     path: Assets/_Assets/Scenes/1ProtagonistHouse.unity
     guid: ee12c9c26fdecde409be03d50b943afd
   - enabled: 1
-    path: Assets/_Assets/Scenes/obsolete/2DriveThroughTheCity.unity
-    guid: 6373960b2259b3d4aa30d6a26aca8e0d
+    path: Assets/_Assets/Scenes/2DriveThroughTheCity.unity
+    guid: 356ff41b7b3b4124e9a17d5cc37fbab8
   - enabled: 1
     path: Assets/_Assets/Scenes/3FourDoors.unity
     guid: b342ffaf29d60cf4aa81277e90f02169
@@ -24,6 +24,9 @@ EditorBuildSettings:
     path: Assets/_Assets/Scenes/6LongGardenHall.unity
     guid: 5b18869f0a5dcb5439de0a2543d4938d
   - enabled: 1
+    path: Assets/_Assets/Scenes/7.1LongGardenHall 1.unity
+    guid: 7ab0f0f704f8eef46b5fe799ad7d15a1
+  - enabled: 1
     path: Assets/_Assets/Scenes/7Non-EuclidianStairs.unity
     guid: 4065ed628e602c0479093d8cb212e115
   - enabled: 1
@@ -32,5 +35,8 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/_Assets/Scenes/9MagicalPillarsBattle.unity
     guid: 0d4e318f4d2ab984bb026d9e402b6b4d
+  - enabled: 1
+    path: Assets/_Assets/Scenes/10CheckeredRedLongHall.unity
+    guid: 964a471497158764e961ce7d90f82fac
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
