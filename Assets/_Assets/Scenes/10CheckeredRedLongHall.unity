@@ -3191,6 +3191,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Guns & Ammo
       objectReference: {fileID: 0}
+    - target: {fileID: 3851445521524850659, guid: 5608b33b8654356498085587c3f7d758, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4604173818561519189, guid: 5608b33b8654356498085587c3f7d758, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -3996,6 +4000,8 @@ MonoBehaviour:
   player: {fileID: 1602469333}
   activationDistance: 1
   distance: 0
+  isReady: 0
+  hasActivated: 0
 --- !u!1001 &1784538643
 PrefabInstance:
   m_ObjectHideFlags: 0

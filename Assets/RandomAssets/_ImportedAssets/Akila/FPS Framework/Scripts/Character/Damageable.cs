@@ -271,7 +271,7 @@ namespace Akila.FPSFramework
         {
             if (!died && health <= 0)
             {
-                OnDeath?.Invoke();
+               // OnDeath?.Invoke();
             }
 
             CharacterManager characterManager = this.SearchFor<CharacterManager>();

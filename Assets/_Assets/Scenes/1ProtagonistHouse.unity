@@ -2202,6 +2202,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: 'SceneChangerTrigger '
       objectReference: {fileID: 0}
+    - target: {fileID: 6266674764052429874, guid: 27834dc20566af24783c1d491fb90db4, type: 3}
+      propertyPath: m_Size.x
+      value: 1.413481
+      objectReference: {fileID: 0}
+    - target: {fileID: 6266674764052429874, guid: 27834dc20566af24783c1d491fb90db4, type: 3}
+      propertyPath: m_Center.x
+      value: -0.2067405
+      objectReference: {fileID: 0}
+    - target: {fileID: 8633389176021524687, guid: 27834dc20566af24783c1d491fb90db4, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2230,7 +2242,7 @@ PrefabInstance:
     - target: {fileID: 2344494380040522333, guid: 680a824064a1ea64c99855ed66471412, type: 3}
       propertyPath: musicC
       value: 
-      objectReference: {fileID: 8300000, guid: 7149b886075963b4ba1b4502b0ca4dc8, type: 3}
+      objectReference: {fileID: 8300000, guid: 7fe716f6e0b9a1940a3c67819ee36fcb, type: 3}
     - target: {fileID: 2344494380040522333, guid: 680a824064a1ea64c99855ed66471412, type: 3}
       propertyPath: priority
       value: 1

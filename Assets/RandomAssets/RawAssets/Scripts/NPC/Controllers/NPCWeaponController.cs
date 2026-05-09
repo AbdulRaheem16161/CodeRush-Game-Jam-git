@@ -30,6 +30,8 @@ namespace AbdulRaheem.Game.Weapons
         [SerializeField] private Color meleeGizmoColor = Color.red;
         [SerializeField] private Color rangedGizmoColor = Color.cyan;
 
+        [SerializeField] private AudioSource fireballSound;
+
         public GameObject player;
 
         private void Awake()
@@ -47,6 +49,8 @@ namespace AbdulRaheem.Game.Weapons
             }
 
             player = GameObject.FindWithTag("PlayerPointToTarget");
+
+            fireballSound = GetComponent<AudioSource>();
         }
 
         public void PerformMeleeAttack()
@@ -60,10 +64,13 @@ namespace AbdulRaheem.Game.Weapons
             if (useArcShooter && arcShooter != null)
             {
                 arcShooter.Shoot();
+
+                fireballSound.Play();
             }
             else
             {
                 rangedWeapon.Shoot(firePoint, player.transform, targetLayer);
+                fireballSound.Play();
             }
         }
 

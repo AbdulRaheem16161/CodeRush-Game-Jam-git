@@ -15,9 +15,9 @@ namespace AbdulRaheem.Game.Shared
 
         [SerializeField] private bool CantDie;
         [SerializeField] private float disableDelay = 2f;
-        [SerializeField] Damageable AKILLADamageable;
+        [SerializeField] private Damageable AKILLADamageable;
 
-        [SerializeField] GameObject PlayerParent;
+        [SerializeField] private GameObject PlayerParent;
 
         public UnityEngine.AI.NavMeshAgent navMeshAgent;
         public event Action<float> OnDamage;
@@ -60,11 +60,11 @@ namespace AbdulRaheem.Game.Shared
 
             OnDeath?.Invoke();
 
-            navMeshAgent.enabled = false;
+            if (navMeshAgent != null) navMeshAgent.enabled = false;
 
             StartCoroutine(DisableAfterDelay());
 
-            if(PlayerParent != null) Destroy(PlayerParent);
+            if(PlayerParent != null) PlayerParent.SetActive(false);
         }
 
         private IEnumerator DisableAfterDelay()

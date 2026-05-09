@@ -22,6 +22,8 @@ public class GunSoundToAttackZombies : MonoBehaviour
     [Header("Debug - Alerted NPCs")]
     [SerializeField] private List<NPCEntry> alertedNPCs = new List<NPCEntry>();
 
+    public AudioSource gunShotSound;
+
     public bool soundTriggered;
     private float alertTimer;
 
@@ -91,6 +93,7 @@ public class GunSoundToAttackZombies : MonoBehaviour
         }
 
         soundTriggered = true;
+        gunShotSound.Play();
         alertTimer = alertFlashDuration;
     }
 
