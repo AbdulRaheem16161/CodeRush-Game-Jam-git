@@ -21,7 +21,7 @@ MonoBehaviour:
   <WaitTimeBetweenRandomPoints>k__BackingField: 0
   <RandomMoveRadius>k__BackingField: 30
   <SightAngle>k__BackingField: 360
-  <SightRange>k__BackingField: 100
+  <SightRange>k__BackingField: 60
   <LostPlayerTimeOut>k__BackingField: 2
   <FlinchDuration>k__BackingField: 0.1
   <FlinchSpeed>k__BackingField: 1

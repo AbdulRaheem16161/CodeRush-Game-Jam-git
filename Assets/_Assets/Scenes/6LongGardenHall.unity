@@ -5120,7 +5120,25 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::PreloadSceneByDistance
   sceneName: 7Non-EuclidianStairs
   player: {fileID: 1682285096}
-  activationDistance: 1
+  activationDistance: 1.5
+  distance: 0
+  isReady: 0
+  hasActivated: 0
+--- !u!114 &277041634
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 277041628}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6dc0a11cf6dbc874d8461eddece2be8a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ChangeSceneOnDistance
+  player: {fileID: 1682285096}
+  triggerDistance: 1.5
+  sceneName: 7Non-EuclidianStairs
   distance: 0
 --- !u!4 &277568725 stripped
 Transform:
@@ -36729,6 +36747,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 117326, guid: 47455669544a7614fb1944943e4fdcbd, type: 3}
       insertIndex: -1
       addedObject: {fileID: 277041633}
+    - targetCorrespondingSourceObject: {fileID: 117326, guid: 47455669544a7614fb1944943e4fdcbd, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 277041634}
   m_SourcePrefab: {fileID: 100100000, guid: 47455669544a7614fb1944943e4fdcbd, type: 3}
 --- !u!4 &1979763489 stripped
 Transform:

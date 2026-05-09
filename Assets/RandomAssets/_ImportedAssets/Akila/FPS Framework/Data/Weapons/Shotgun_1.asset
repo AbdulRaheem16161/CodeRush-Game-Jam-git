@@ -32,7 +32,7 @@ MonoBehaviour:
   casingVelocity: 5
   impactForce: 32
   damage: 200
-  range: 100
+  range: 50
   maxAimDeviation: 10
   sprayPattern: {fileID: 11400000, guid: ec570f8a2dd48a9478654a6753453887, type: 2}
   aimSprayPattern: {fileID: 11400000, guid: 897a68f121d704e4f8fe89f542c34aab, type: 2}
