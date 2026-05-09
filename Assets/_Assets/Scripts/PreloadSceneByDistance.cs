@@ -29,8 +29,8 @@ public class PreloadSceneByDistance : MonoBehaviour
 
     private void Update()
     {
-        // if (!isReady || hasActivated)
-        //     return;
+        if (!isReady || hasActivated)
+            return;
 
         distance = Vector3.Distance(transform.position, player.position);
 
