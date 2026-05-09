@@ -6,7 +6,31 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/_Assets/Scenes/OtherScenes/SampleScene.unity
-    guid: 99c9720ab356a0642a771bea13969a05
+    path: Assets/_Assets/Scenes/1ProtagonistHouse.unity
+    guid: ee12c9c26fdecde409be03d50b943afd
+  - enabled: 1
+    path: Assets/_Assets/Scenes/obsolete/2DriveThroughTheCity.unity
+    guid: 6373960b2259b3d4aa30d6a26aca8e0d
+  - enabled: 1
+    path: Assets/_Assets/Scenes/3FourDoors.unity
+    guid: b342ffaf29d60cf4aa81277e90f02169
+  - enabled: 1
+    path: Assets/_Assets/Scenes/4CheckeredRedLongHall.unity
+    guid: 1e0ce160a14397348a6c3860fcae59ef
+  - enabled: 1
+    path: Assets/_Assets/Scenes/5LiminalMaze.unity
+    guid: 455ffb1912b150244bada34aee85b852
+  - enabled: 1
+    path: Assets/_Assets/Scenes/6LongGardenHall.unity
+    guid: 5b18869f0a5dcb5439de0a2543d4938d
+  - enabled: 1
+    path: Assets/_Assets/Scenes/7Non-EuclidianStairs.unity
+    guid: 4065ed628e602c0479093d8cb212e115
+  - enabled: 1
+    path: Assets/_Assets/Scenes/8AttackTheCastle.unity
+    guid: a0b5c9b4e2e99f24aaf761fe0e2e7509
+  - enabled: 1
+    path: Assets/_Assets/Scenes/9MagicalPillarsBattle.unity
+    guid: 0d4e318f4d2ab984bb026d9e402b6b4d
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}

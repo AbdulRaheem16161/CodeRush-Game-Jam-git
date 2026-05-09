@@ -67,6 +67,6 @@
         "*.sln": "*.csproj",
         "*.slnx": "*.csproj"
     },
-    "dotnet.defaultSolution": "CodeRush-Game-Jam-git.slnx",
+    "dotnet.defaultSolution": "CodeRush Game Jam git.slnx",
     "dotnet.enableWorkspaceBasedDevelopment": false
 }
