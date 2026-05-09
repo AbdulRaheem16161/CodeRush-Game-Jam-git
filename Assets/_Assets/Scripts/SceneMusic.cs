@@ -1,16 +1,25 @@
-using UnityEngine;
+// using UnityEngine;
 
-public class SceneMusic : MonoBehaviour
-{
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
-    {
-        
-    }
+// namespace AbdulRaheem.Audio
+// {
+//     public class SceneMusic : MonoBehaviour
+//     {
+//         [SerializeField] private AudioClip musicClip;
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-}
+//         [SerializeField] private bool continueCurrentMusic;
+
+//         private void Start()
+//         {
+//             if (continueCurrentMusic)
+//                 return;
+
+//             if (MusicManager.Instance == null)
+//             {
+//                 Debug.LogError("No MusicManager found.");
+//                 return;
+//             }
+
+//             MusicManager.Instance.PlayMusic(musicClip);
+//         }
+//     }
+// }

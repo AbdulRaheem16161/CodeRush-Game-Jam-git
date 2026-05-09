@@ -20322,6 +20322,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: fcdfbdaa80f0f7247baf96cb7e00668e, type: 3}
       insertIndex: -1
       addedObject: {fileID: 653983591}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: fcdfbdaa80f0f7247baf96cb7e00668e, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 653983592}
   m_SourcePrefab: {fileID: 100100000, guid: fcdfbdaa80f0f7247baf96cb7e00668e, type: 3}
 --- !u!1 &653983590 stripped
 GameObject:
@@ -20346,6 +20349,21 @@ MonoBehaviour:
   distance: 0
   isReady: 0
   hasActivated: 0
+--- !u!114 &653983592
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 653983590}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1a13326a31a091349a51604119b90cdb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::MusicChanger
+  targetTrack: 1
+  player: {fileID: 8117419340950123594}
+  activationDistance: 10
 --- !u!1 &656585334
 GameObject:
   m_ObjectHideFlags: 0

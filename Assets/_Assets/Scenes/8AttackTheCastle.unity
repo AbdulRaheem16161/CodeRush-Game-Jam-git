@@ -139504,6 +139504,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7001598123120284962}
+  - component: {fileID: 7294987241324344197}
   m_Layer: 0
   m_Name: TeleportPoint
   m_TagString: Untagged
@@ -139511,6 +139512,21 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &7294987241324344197
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7294987241324344196}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1a13326a31a091349a51604119b90cdb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::MusicChanger
+  targetTrack: 2
+  player: {fileID: 1416822582}
+  activationDistance: 6.34
 --- !u!64 &7295141164407361163
 MeshCollider:
   m_ObjectHideFlags: 0
