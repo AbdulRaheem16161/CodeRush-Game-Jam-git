@@ -524,14 +524,14 @@ PrefabInstance:
     - target: {fileID: 934589179913204991, guid: 25271615e4908894ebf3178638d00527, type: 3}
       propertyPath: m_Mesh
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 257495022}
     - target: {fileID: 4269876012068671683, guid: 25271615e4908894ebf3178638d00527, type: 3}
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 257495022}
     - target: {fileID: 4269876012068671683, guid: 25271615e4908894ebf3178638d00527, type: 3}
       propertyPath: m_VersionIndex
-      value: 1556
+      value: 1562
       objectReference: {fileID: 0}
     - target: {fileID: 5944273872471166272, guid: 25271615e4908894ebf3178638d00527, type: 3}
       propertyPath: m_LocalPosition.x
@@ -576,7 +576,7 @@ PrefabInstance:
     - target: {fileID: 7199126745389518901, guid: 25271615e4908894ebf3178638d00527, type: 3}
       propertyPath: m_Mesh
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 257495022}
     - target: {fileID: 9030214854000572041, guid: 25271615e4908894ebf3178638d00527, type: 3}
       propertyPath: m_Name
       value: LightCube (7)
@@ -1055,14 +1055,14 @@ PrefabInstance:
     - target: {fileID: 934589179913204991, guid: 25271615e4908894ebf3178638d00527, type: 3}
       propertyPath: m_Mesh
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 376292706}
     - target: {fileID: 4269876012068671683, guid: 25271615e4908894ebf3178638d00527, type: 3}
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 376292706}
     - target: {fileID: 4269876012068671683, guid: 25271615e4908894ebf3178638d00527, type: 3}
       propertyPath: m_VersionIndex
-      value: 1547
+      value: 1553
       objectReference: {fileID: 0}
     - target: {fileID: 5944273872471166272, guid: 25271615e4908894ebf3178638d00527, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1107,7 +1107,7 @@ PrefabInstance:
     - target: {fileID: 7199126745389518901, guid: 25271615e4908894ebf3178638d00527, type: 3}
       propertyPath: m_Mesh
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 376292706}
     - target: {fileID: 9030214854000572041, guid: 25271615e4908894ebf3178638d00527, type: 3}
       propertyPath: m_Name
       value: LightCube (39)
@@ -1128,14 +1128,14 @@ PrefabInstance:
     - target: {fileID: 934589179913204991, guid: 25271615e4908894ebf3178638d00527, type: 3}
       propertyPath: m_Mesh
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1086379963}
     - target: {fileID: 4269876012068671683, guid: 25271615e4908894ebf3178638d00527, type: 3}
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 1086379963}
     - target: {fileID: 4269876012068671683, guid: 25271615e4908894ebf3178638d00527, type: 3}
       propertyPath: m_VersionIndex
-      value: 1547
+      value: 1553
       objectReference: {fileID: 0}
     - target: {fileID: 5944273872471166272, guid: 25271615e4908894ebf3178638d00527, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1180,7 +1180,7 @@ PrefabInstance:
     - target: {fileID: 7199126745389518901, guid: 25271615e4908894ebf3178638d00527, type: 3}
       propertyPath: m_Mesh
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1086379963}
     - target: {fileID: 9030214854000572041, guid: 25271615e4908894ebf3178638d00527, type: 3}
       propertyPath: m_Name
       value: LightCube (31)
@@ -1201,14 +1201,14 @@ PrefabInstance:
     - target: {fileID: 934589179913204991, guid: 25271615e4908894ebf3178638d00527, type: 3}
       propertyPath: m_Mesh
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 62594458}
     - target: {fileID: 4269876012068671683, guid: 25271615e4908894ebf3178638d00527, type: 3}
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 62594458}
     - target: {fileID: 4269876012068671683, guid: 25271615e4908894ebf3178638d00527, type: 3}
       propertyPath: m_VersionIndex
-      value: 1556
+      value: 1562
       objectReference: {fileID: 0}
     - target: {fileID: 5944273872471166272, guid: 25271615e4908894ebf3178638d00527, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1253,7 +1253,7 @@ PrefabInstance:
     - target: {fileID: 7199126745389518901, guid: 25271615e4908894ebf3178638d00527, type: 3}
       propertyPath: m_Mesh
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 62594458}
     - target: {fileID: 9030214854000572041, guid: 25271615e4908894ebf3178638d00527, type: 3}
       propertyPath: m_Name
       value: LightCube (8)
@@ -1279,14 +1279,14 @@ PrefabInstance:
     - target: {fileID: 934589179913204991, guid: 25271615e4908894ebf3178638d00527, type: 3}
       propertyPath: m_Mesh
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1146772608}
     - target: {fileID: 4269876012068671683, guid: 25271615e4908894ebf3178638d00527, type: 3}
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 1146772608}
     - target: {fileID: 4269876012068671683, guid: 25271615e4908894ebf3178638d00527, type: 3}
       propertyPath: m_VersionIndex
-      value: 1556
+      value: 1562
       objectReference: {fileID: 0}
     - target: {fileID: 5944273872471166272, guid: 25271615e4908894ebf3178638d00527, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1331,7 +1331,7 @@ PrefabInstance:
     - target: {fileID: 7199126745389518901, guid: 25271615e4908894ebf3178638d00527, type: 3}
       propertyPath: m_Mesh
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1146772608}
     - target: {fileID: 9030214854000572041, guid: 25271615e4908894ebf3178638d00527, type: 3}
       propertyPath: m_Name
       value: LightCube (4)
@@ -2119,14 +2119,14 @@ PrefabInstance:
     - target: {fileID: 934589179913204991, guid: 25271615e4908894ebf3178638d00527, type: 3}
       propertyPath: m_Mesh
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1926653630}
     - target: {fileID: 4269876012068671683, guid: 25271615e4908894ebf3178638d00527, type: 3}
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 1926653630}
     - target: {fileID: 4269876012068671683, guid: 25271615e4908894ebf3178638d00527, type: 3}
       propertyPath: m_VersionIndex
-      value: 1556
+      value: 1562
       objectReference: {fileID: 0}
     - target: {fileID: 5944273872471166272, guid: 25271615e4908894ebf3178638d00527, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2171,7 +2171,7 @@ PrefabInstance:
     - target: {fileID: 7199126745389518901, guid: 25271615e4908894ebf3178638d00527, type: 3}
       propertyPath: m_Mesh
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1926653630}
     - target: {fileID: 9030214854000572041, guid: 25271615e4908894ebf3178638d00527, type: 3}
       propertyPath: m_Name
       value: LightCube (10)
@@ -2228,14 +2228,14 @@ PrefabInstance:
     - target: {fileID: 934589179913204991, guid: 25271615e4908894ebf3178638d00527, type: 3}
       propertyPath: m_Mesh
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1519754214}
     - target: {fileID: 4269876012068671683, guid: 25271615e4908894ebf3178638d00527, type: 3}
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 1519754214}
     - target: {fileID: 4269876012068671683, guid: 25271615e4908894ebf3178638d00527, type: 3}
       propertyPath: m_VersionIndex
-      value: 1556
+      value: 1562
       objectReference: {fileID: 0}
     - target: {fileID: 5944273872471166272, guid: 25271615e4908894ebf3178638d00527, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2280,7 +2280,7 @@ PrefabInstance:
     - target: {fileID: 7199126745389518901, guid: 25271615e4908894ebf3178638d00527, type: 3}
       propertyPath: m_Mesh
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1519754214}
     - target: {fileID: 9030214854000572041, guid: 25271615e4908894ebf3178638d00527, type: 3}
       propertyPath: m_Name
       value: LightCube (11)
@@ -2484,14 +2484,14 @@ PrefabInstance:
     - target: {fileID: 934589179913204991, guid: 25271615e4908894ebf3178638d00527, type: 3}
       propertyPath: m_Mesh
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1587421239}
     - target: {fileID: 4269876012068671683, guid: 25271615e4908894ebf3178638d00527, type: 3}
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 1587421239}
     - target: {fileID: 4269876012068671683, guid: 25271615e4908894ebf3178638d00527, type: 3}
       propertyPath: m_VersionIndex
-      value: 1547
+      value: 1553
       objectReference: {fileID: 0}
     - target: {fileID: 5944273872471166272, guid: 25271615e4908894ebf3178638d00527, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2536,7 +2536,7 @@ PrefabInstance:
     - target: {fileID: 7199126745389518901, guid: 25271615e4908894ebf3178638d00527, type: 3}
       propertyPath: m_Mesh
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1587421239}
     - target: {fileID: 9030214854000572041, guid: 25271615e4908894ebf3178638d00527, type: 3}
       propertyPath: m_Name
       value: LightCube (32)
@@ -2557,14 +2557,14 @@ PrefabInstance:
     - target: {fileID: 934589179913204991, guid: 25271615e4908894ebf3178638d00527, type: 3}
       propertyPath: m_Mesh
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 493943960}
     - target: {fileID: 4269876012068671683, guid: 25271615e4908894ebf3178638d00527, type: 3}
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 493943960}
     - target: {fileID: 4269876012068671683, guid: 25271615e4908894ebf3178638d00527, type: 3}
       propertyPath: m_VersionIndex
-      value: 1547
+      value: 1553
       objectReference: {fileID: 0}
     - target: {fileID: 5944273872471166272, guid: 25271615e4908894ebf3178638d00527, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2609,7 +2609,7 @@ PrefabInstance:
     - target: {fileID: 7199126745389518901, guid: 25271615e4908894ebf3178638d00527, type: 3}
       propertyPath: m_Mesh
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 493943960}
     - target: {fileID: 9030214854000572041, guid: 25271615e4908894ebf3178638d00527, type: 3}
       propertyPath: m_Name
       value: LightCube (33)
@@ -2630,14 +2630,14 @@ PrefabInstance:
     - target: {fileID: 934589179913204991, guid: 25271615e4908894ebf3178638d00527, type: 3}
       propertyPath: m_Mesh
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 100885865}
     - target: {fileID: 4269876012068671683, guid: 25271615e4908894ebf3178638d00527, type: 3}
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 100885865}
     - target: {fileID: 4269876012068671683, guid: 25271615e4908894ebf3178638d00527, type: 3}
       propertyPath: m_VersionIndex
-      value: 1547
+      value: 1553
       objectReference: {fileID: 0}
     - target: {fileID: 5944273872471166272, guid: 25271615e4908894ebf3178638d00527, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2682,7 +2682,7 @@ PrefabInstance:
     - target: {fileID: 7199126745389518901, guid: 25271615e4908894ebf3178638d00527, type: 3}
       propertyPath: m_Mesh
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 100885865}
     - target: {fileID: 9030214854000572041, guid: 25271615e4908894ebf3178638d00527, type: 3}
       propertyPath: m_Name
       value: LightCube (16)
@@ -3090,14 +3090,14 @@ PrefabInstance:
     - target: {fileID: 934589179913204991, guid: 25271615e4908894ebf3178638d00527, type: 3}
       propertyPath: m_Mesh
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 2044863754}
     - target: {fileID: 4269876012068671683, guid: 25271615e4908894ebf3178638d00527, type: 3}
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 2044863754}
     - target: {fileID: 4269876012068671683, guid: 25271615e4908894ebf3178638d00527, type: 3}
       propertyPath: m_VersionIndex
-      value: 1547
+      value: 1553
       objectReference: {fileID: 0}
     - target: {fileID: 5944273872471166272, guid: 25271615e4908894ebf3178638d00527, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3142,7 +3142,7 @@ PrefabInstance:
     - target: {fileID: 7199126745389518901, guid: 25271615e4908894ebf3178638d00527, type: 3}
       propertyPath: m_Mesh
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 2044863754}
     - target: {fileID: 9030214854000572041, guid: 25271615e4908894ebf3178638d00527, type: 3}
       propertyPath: m_Name
       value: LightCube (20)
@@ -3163,14 +3163,14 @@ PrefabInstance:
     - target: {fileID: 934589179913204991, guid: 25271615e4908894ebf3178638d00527, type: 3}
       propertyPath: m_Mesh
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 739768734}
     - target: {fileID: 4269876012068671683, guid: 25271615e4908894ebf3178638d00527, type: 3}
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 739768734}
     - target: {fileID: 4269876012068671683, guid: 25271615e4908894ebf3178638d00527, type: 3}
       propertyPath: m_VersionIndex
-      value: 1547
+      value: 1553
       objectReference: {fileID: 0}
     - target: {fileID: 5944273872471166272, guid: 25271615e4908894ebf3178638d00527, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3215,7 +3215,7 @@ PrefabInstance:
     - target: {fileID: 7199126745389518901, guid: 25271615e4908894ebf3178638d00527, type: 3}
       propertyPath: m_Mesh
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 739768734}
     - target: {fileID: 9030214854000572041, guid: 25271615e4908894ebf3178638d00527, type: 3}
       propertyPath: m_Name
       value: LightCube (13)
@@ -3419,14 +3419,14 @@ PrefabInstance:
     - target: {fileID: 934589179913204991, guid: 25271615e4908894ebf3178638d00527, type: 3}
       propertyPath: m_Mesh
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1108961477}
     - target: {fileID: 4269876012068671683, guid: 25271615e4908894ebf3178638d00527, type: 3}
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 1108961477}
     - target: {fileID: 4269876012068671683, guid: 25271615e4908894ebf3178638d00527, type: 3}
       propertyPath: m_VersionIndex
-      value: 1556
+      value: 1562
       objectReference: {fileID: 0}
     - target: {fileID: 5944273872471166272, guid: 25271615e4908894ebf3178638d00527, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3471,7 +3471,7 @@ PrefabInstance:
     - target: {fileID: 7199126745389518901, guid: 25271615e4908894ebf3178638d00527, type: 3}
       propertyPath: m_Mesh
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1108961477}
     - target: {fileID: 9030214854000572041, guid: 25271615e4908894ebf3178638d00527, type: 3}
       propertyPath: m_Name
       value: LightCube (3)
@@ -3724,14 +3724,14 @@ PrefabInstance:
     - target: {fileID: 934589179913204991, guid: 25271615e4908894ebf3178638d00527, type: 3}
       propertyPath: m_Mesh
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1770479276}
     - target: {fileID: 4269876012068671683, guid: 25271615e4908894ebf3178638d00527, type: 3}
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 1770479276}
     - target: {fileID: 4269876012068671683, guid: 25271615e4908894ebf3178638d00527, type: 3}
       propertyPath: m_VersionIndex
-      value: 1547
+      value: 1553
       objectReference: {fileID: 0}
     - target: {fileID: 5944273872471166272, guid: 25271615e4908894ebf3178638d00527, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3776,7 +3776,7 @@ PrefabInstance:
     - target: {fileID: 7199126745389518901, guid: 25271615e4908894ebf3178638d00527, type: 3}
       propertyPath: m_Mesh
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1770479276}
     - target: {fileID: 9030214854000572041, guid: 25271615e4908894ebf3178638d00527, type: 3}
       propertyPath: m_Name
       value: LightCube (30)
@@ -3802,14 +3802,14 @@ PrefabInstance:
     - target: {fileID: 934589179913204991, guid: 25271615e4908894ebf3178638d00527, type: 3}
       propertyPath: m_Mesh
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1509202743}
     - target: {fileID: 4269876012068671683, guid: 25271615e4908894ebf3178638d00527, type: 3}
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 1509202743}
     - target: {fileID: 4269876012068671683, guid: 25271615e4908894ebf3178638d00527, type: 3}
       propertyPath: m_VersionIndex
-      value: 1547
+      value: 1553
       objectReference: {fileID: 0}
     - target: {fileID: 5944273872471166272, guid: 25271615e4908894ebf3178638d00527, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3854,7 +3854,7 @@ PrefabInstance:
     - target: {fileID: 7199126745389518901, guid: 25271615e4908894ebf3178638d00527, type: 3}
       propertyPath: m_Mesh
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1509202743}
     - target: {fileID: 9030214854000572041, guid: 25271615e4908894ebf3178638d00527, type: 3}
       propertyPath: m_Name
       value: LightCube (38)
@@ -4002,6 +4002,9 @@ MonoBehaviour:
   sceneName: 6LongGardenHall
   player: {fileID: 12198052}
   activationDistance: 1
+  distance: 0
+  isReady: 0
+  hasActivated: 0
 --- !u!1001 &721967125
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4388,14 +4391,14 @@ PrefabInstance:
     - target: {fileID: 934589179913204991, guid: 25271615e4908894ebf3178638d00527, type: 3}
       propertyPath: m_Mesh
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1660372105}
     - target: {fileID: 4269876012068671683, guid: 25271615e4908894ebf3178638d00527, type: 3}
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 1660372105}
     - target: {fileID: 4269876012068671683, guid: 25271615e4908894ebf3178638d00527, type: 3}
       propertyPath: m_VersionIndex
-      value: 1547
+      value: 1553
       objectReference: {fileID: 0}
     - target: {fileID: 5944273872471166272, guid: 25271615e4908894ebf3178638d00527, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4440,7 +4443,7 @@ PrefabInstance:
     - target: {fileID: 7199126745389518901, guid: 25271615e4908894ebf3178638d00527, type: 3}
       propertyPath: m_Mesh
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1660372105}
     - target: {fileID: 9030214854000572041, guid: 25271615e4908894ebf3178638d00527, type: 3}
       propertyPath: m_Name
       value: LightCube (35)
@@ -4461,14 +4464,14 @@ PrefabInstance:
     - target: {fileID: 934589179913204991, guid: 25271615e4908894ebf3178638d00527, type: 3}
       propertyPath: m_Mesh
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1555488644}
     - target: {fileID: 4269876012068671683, guid: 25271615e4908894ebf3178638d00527, type: 3}
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 1555488644}
     - target: {fileID: 4269876012068671683, guid: 25271615e4908894ebf3178638d00527, type: 3}
       propertyPath: m_VersionIndex
-      value: 1547
+      value: 1553
       objectReference: {fileID: 0}
     - target: {fileID: 5944273872471166272, guid: 25271615e4908894ebf3178638d00527, type: 3}
       propertyPath: m_LocalScale.x
@@ -4525,7 +4528,7 @@ PrefabInstance:
     - target: {fileID: 7199126745389518901, guid: 25271615e4908894ebf3178638d00527, type: 3}
       propertyPath: m_Mesh
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1555488644}
     - target: {fileID: 9030214854000572041, guid: 25271615e4908894ebf3178638d00527, type: 3}
       propertyPath: m_Name
       value: LightCube (41)
@@ -4556,14 +4559,14 @@ PrefabInstance:
     - target: {fileID: 934589179913204991, guid: 25271615e4908894ebf3178638d00527, type: 3}
       propertyPath: m_Mesh
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1172771489}
     - target: {fileID: 4269876012068671683, guid: 25271615e4908894ebf3178638d00527, type: 3}
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 1172771489}
     - target: {fileID: 4269876012068671683, guid: 25271615e4908894ebf3178638d00527, type: 3}
       propertyPath: m_VersionIndex
-      value: 1556
+      value: 1562
       objectReference: {fileID: 0}
     - target: {fileID: 5944273872471166272, guid: 25271615e4908894ebf3178638d00527, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4608,7 +4611,7 @@ PrefabInstance:
     - target: {fileID: 7199126745389518901, guid: 25271615e4908894ebf3178638d00527, type: 3}
       propertyPath: m_Mesh
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1172771489}
     - target: {fileID: 9030214854000572041, guid: 25271615e4908894ebf3178638d00527, type: 3}
       propertyPath: m_Name
       value: LightCube (9)
@@ -4634,14 +4637,14 @@ PrefabInstance:
     - target: {fileID: 934589179913204991, guid: 25271615e4908894ebf3178638d00527, type: 3}
       propertyPath: m_Mesh
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 2030173077}
     - target: {fileID: 4269876012068671683, guid: 25271615e4908894ebf3178638d00527, type: 3}
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 2030173077}
     - target: {fileID: 4269876012068671683, guid: 25271615e4908894ebf3178638d00527, type: 3}
       propertyPath: m_VersionIndex
-      value: 1556
+      value: 1562
       objectReference: {fileID: 0}
     - target: {fileID: 5944273872471166272, guid: 25271615e4908894ebf3178638d00527, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4686,7 +4689,7 @@ PrefabInstance:
     - target: {fileID: 7199126745389518901, guid: 25271615e4908894ebf3178638d00527, type: 3}
       propertyPath: m_Mesh
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 2030173077}
     - target: {fileID: 9030214854000572041, guid: 25271615e4908894ebf3178638d00527, type: 3}
       propertyPath: m_Name
       value: LightCube (1)
@@ -5259,14 +5262,14 @@ PrefabInstance:
     - target: {fileID: 934589179913204991, guid: 25271615e4908894ebf3178638d00527, type: 3}
       propertyPath: m_Mesh
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 874873291}
     - target: {fileID: 4269876012068671683, guid: 25271615e4908894ebf3178638d00527, type: 3}
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 874873291}
     - target: {fileID: 4269876012068671683, guid: 25271615e4908894ebf3178638d00527, type: 3}
       propertyPath: m_VersionIndex
-      value: 1556
+      value: 1562
       objectReference: {fileID: 0}
     - target: {fileID: 5944273872471166272, guid: 25271615e4908894ebf3178638d00527, type: 3}
       propertyPath: m_LocalPosition.x
@@ -5311,7 +5314,7 @@ PrefabInstance:
     - target: {fileID: 7199126745389518901, guid: 25271615e4908894ebf3178638d00527, type: 3}
       propertyPath: m_Mesh
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 874873291}
     - target: {fileID: 9030214854000572041, guid: 25271615e4908894ebf3178638d00527, type: 3}
       propertyPath: m_Name
       value: LightCube (29)
@@ -5332,14 +5335,14 @@ PrefabInstance:
     - target: {fileID: 934589179913204991, guid: 25271615e4908894ebf3178638d00527, type: 3}
       propertyPath: m_Mesh
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 2069835454}
     - target: {fileID: 4269876012068671683, guid: 25271615e4908894ebf3178638d00527, type: 3}
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 2069835454}
     - target: {fileID: 4269876012068671683, guid: 25271615e4908894ebf3178638d00527, type: 3}
       propertyPath: m_VersionIndex
-      value: 1547
+      value: 1553
       objectReference: {fileID: 0}
     - target: {fileID: 5944273872471166272, guid: 25271615e4908894ebf3178638d00527, type: 3}
       propertyPath: m_LocalPosition.x
@@ -5384,7 +5387,7 @@ PrefabInstance:
     - target: {fileID: 7199126745389518901, guid: 25271615e4908894ebf3178638d00527, type: 3}
       propertyPath: m_Mesh
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 2069835454}
     - target: {fileID: 9030214854000572041, guid: 25271615e4908894ebf3178638d00527, type: 3}
       propertyPath: m_Name
       value: LightCube (36)
@@ -5405,14 +5408,14 @@ PrefabInstance:
     - target: {fileID: 934589179913204991, guid: 25271615e4908894ebf3178638d00527, type: 3}
       propertyPath: m_Mesh
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1847711698}
     - target: {fileID: 4269876012068671683, guid: 25271615e4908894ebf3178638d00527, type: 3}
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 1847711698}
     - target: {fileID: 4269876012068671683, guid: 25271615e4908894ebf3178638d00527, type: 3}
       propertyPath: m_VersionIndex
-      value: 1547
+      value: 1553
       objectReference: {fileID: 0}
     - target: {fileID: 5944273872471166272, guid: 25271615e4908894ebf3178638d00527, type: 3}
       propertyPath: m_LocalPosition.x
@@ -5457,7 +5460,7 @@ PrefabInstance:
     - target: {fileID: 7199126745389518901, guid: 25271615e4908894ebf3178638d00527, type: 3}
       propertyPath: m_Mesh
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1847711698}
     - target: {fileID: 9030214854000572041, guid: 25271615e4908894ebf3178638d00527, type: 3}
       propertyPath: m_Name
       value: LightCube (17)
@@ -6972,14 +6975,14 @@ PrefabInstance:
     - target: {fileID: 934589179913204991, guid: 25271615e4908894ebf3178638d00527, type: 3}
       propertyPath: m_Mesh
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1789693608}
     - target: {fileID: 4269876012068671683, guid: 25271615e4908894ebf3178638d00527, type: 3}
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 1789693608}
     - target: {fileID: 4269876012068671683, guid: 25271615e4908894ebf3178638d00527, type: 3}
       propertyPath: m_VersionIndex
-      value: 1547
+      value: 1553
       objectReference: {fileID: 0}
     - target: {fileID: 5944273872471166272, guid: 25271615e4908894ebf3178638d00527, type: 3}
       propertyPath: m_LocalPosition.x
@@ -7024,7 +7027,7 @@ PrefabInstance:
     - target: {fileID: 7199126745389518901, guid: 25271615e4908894ebf3178638d00527, type: 3}
       propertyPath: m_Mesh
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1789693608}
     - target: {fileID: 9030214854000572041, guid: 25271615e4908894ebf3178638d00527, type: 3}
       propertyPath: m_Name
       value: LightCube (12)
@@ -7104,14 +7107,14 @@ PrefabInstance:
     - target: {fileID: 934589179913204991, guid: 25271615e4908894ebf3178638d00527, type: 3}
       propertyPath: m_Mesh
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1423826943}
     - target: {fileID: 4269876012068671683, guid: 25271615e4908894ebf3178638d00527, type: 3}
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 1423826943}
     - target: {fileID: 4269876012068671683, guid: 25271615e4908894ebf3178638d00527, type: 3}
       propertyPath: m_VersionIndex
-      value: 1547
+      value: 1553
       objectReference: {fileID: 0}
     - target: {fileID: 5944273872471166272, guid: 25271615e4908894ebf3178638d00527, type: 3}
       propertyPath: m_LocalPosition.x
@@ -7156,7 +7159,7 @@ PrefabInstance:
     - target: {fileID: 7199126745389518901, guid: 25271615e4908894ebf3178638d00527, type: 3}
       propertyPath: m_Mesh
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1423826943}
     - target: {fileID: 9030214854000572041, guid: 25271615e4908894ebf3178638d00527, type: 3}
       propertyPath: m_Name
       value: LightCube (40)
@@ -7251,14 +7254,14 @@ PrefabInstance:
     - target: {fileID: 934589179913204991, guid: 25271615e4908894ebf3178638d00527, type: 3}
       propertyPath: m_Mesh
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1140471981}
     - target: {fileID: 4269876012068671683, guid: 25271615e4908894ebf3178638d00527, type: 3}
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 1140471981}
     - target: {fileID: 4269876012068671683, guid: 25271615e4908894ebf3178638d00527, type: 3}
       propertyPath: m_VersionIndex
-      value: 1547
+      value: 1553
       objectReference: {fileID: 0}
     - target: {fileID: 5944273872471166272, guid: 25271615e4908894ebf3178638d00527, type: 3}
       propertyPath: m_LocalPosition.x
@@ -7303,7 +7306,7 @@ PrefabInstance:
     - target: {fileID: 7199126745389518901, guid: 25271615e4908894ebf3178638d00527, type: 3}
       propertyPath: m_Mesh
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1140471981}
     - target: {fileID: 9030214854000572041, guid: 25271615e4908894ebf3178638d00527, type: 3}
       propertyPath: m_Name
       value: LightCube (37)
@@ -8779,14 +8782,14 @@ PrefabInstance:
     - target: {fileID: 934589179913204991, guid: 25271615e4908894ebf3178638d00527, type: 3}
       propertyPath: m_Mesh
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 102104944}
     - target: {fileID: 4269876012068671683, guid: 25271615e4908894ebf3178638d00527, type: 3}
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 102104944}
     - target: {fileID: 4269876012068671683, guid: 25271615e4908894ebf3178638d00527, type: 3}
       propertyPath: m_VersionIndex
-      value: 1547
+      value: 1553
       objectReference: {fileID: 0}
     - target: {fileID: 5944273872471166272, guid: 25271615e4908894ebf3178638d00527, type: 3}
       propertyPath: m_LocalScale.x
@@ -8847,7 +8850,7 @@ PrefabInstance:
     - target: {fileID: 7199126745389518901, guid: 25271615e4908894ebf3178638d00527, type: 3}
       propertyPath: m_Mesh
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 102104944}
     - target: {fileID: 9030214854000572041, guid: 25271615e4908894ebf3178638d00527, type: 3}
       propertyPath: m_Name
       value: LightCube (27)
@@ -9119,14 +9122,14 @@ PrefabInstance:
     - target: {fileID: 934589179913204991, guid: 25271615e4908894ebf3178638d00527, type: 3}
       propertyPath: m_Mesh
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 463530304}
     - target: {fileID: 4269876012068671683, guid: 25271615e4908894ebf3178638d00527, type: 3}
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 463530304}
     - target: {fileID: 4269876012068671683, guid: 25271615e4908894ebf3178638d00527, type: 3}
       propertyPath: m_VersionIndex
-      value: 1547
+      value: 1553
       objectReference: {fileID: 0}
     - target: {fileID: 5944273872471166272, guid: 25271615e4908894ebf3178638d00527, type: 3}
       propertyPath: m_LocalPosition.x
@@ -9171,7 +9174,7 @@ PrefabInstance:
     - target: {fileID: 7199126745389518901, guid: 25271615e4908894ebf3178638d00527, type: 3}
       propertyPath: m_Mesh
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 463530304}
     - target: {fileID: 9030214854000572041, guid: 25271615e4908894ebf3178638d00527, type: 3}
       propertyPath: m_Name
       value: LightCube (15)
@@ -9192,14 +9195,14 @@ PrefabInstance:
     - target: {fileID: 934589179913204991, guid: 25271615e4908894ebf3178638d00527, type: 3}
       propertyPath: m_Mesh
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 31238529}
     - target: {fileID: 4269876012068671683, guid: 25271615e4908894ebf3178638d00527, type: 3}
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 31238529}
     - target: {fileID: 4269876012068671683, guid: 25271615e4908894ebf3178638d00527, type: 3}
       propertyPath: m_VersionIndex
-      value: 1547
+      value: 1553
       objectReference: {fileID: 0}
     - target: {fileID: 5944273872471166272, guid: 25271615e4908894ebf3178638d00527, type: 3}
       propertyPath: m_LocalPosition.x
@@ -9244,7 +9247,7 @@ PrefabInstance:
     - target: {fileID: 7199126745389518901, guid: 25271615e4908894ebf3178638d00527, type: 3}
       propertyPath: m_Mesh
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 31238529}
     - target: {fileID: 9030214854000572041, guid: 25271615e4908894ebf3178638d00527, type: 3}
       propertyPath: m_Name
       value: LightCube (19)
@@ -9265,14 +9268,14 @@ PrefabInstance:
     - target: {fileID: 934589179913204991, guid: 25271615e4908894ebf3178638d00527, type: 3}
       propertyPath: m_Mesh
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 965599087}
     - target: {fileID: 4269876012068671683, guid: 25271615e4908894ebf3178638d00527, type: 3}
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 965599087}
     - target: {fileID: 4269876012068671683, guid: 25271615e4908894ebf3178638d00527, type: 3}
       propertyPath: m_VersionIndex
-      value: 1550
+      value: 1556
       objectReference: {fileID: 0}
     - target: {fileID: 5944273872471166272, guid: 25271615e4908894ebf3178638d00527, type: 3}
       propertyPath: m_LocalPosition.x
@@ -9317,7 +9320,7 @@ PrefabInstance:
     - target: {fileID: 7199126745389518901, guid: 25271615e4908894ebf3178638d00527, type: 3}
       propertyPath: m_Mesh
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 965599087}
     - target: {fileID: 9030214854000572041, guid: 25271615e4908894ebf3178638d00527, type: 3}
       propertyPath: m_Name
       value: LightCube (2)
@@ -9338,14 +9341,14 @@ PrefabInstance:
     - target: {fileID: 934589179913204991, guid: 25271615e4908894ebf3178638d00527, type: 3}
       propertyPath: m_Mesh
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1186419763}
     - target: {fileID: 4269876012068671683, guid: 25271615e4908894ebf3178638d00527, type: 3}
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 1186419763}
     - target: {fileID: 4269876012068671683, guid: 25271615e4908894ebf3178638d00527, type: 3}
       propertyPath: m_VersionIndex
-      value: 1547
+      value: 1553
       objectReference: {fileID: 0}
     - target: {fileID: 5944273872471166272, guid: 25271615e4908894ebf3178638d00527, type: 3}
       propertyPath: m_LocalPosition.x
@@ -9390,7 +9393,7 @@ PrefabInstance:
     - target: {fileID: 7199126745389518901, guid: 25271615e4908894ebf3178638d00527, type: 3}
       propertyPath: m_Mesh
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1186419763}
     - target: {fileID: 9030214854000572041, guid: 25271615e4908894ebf3178638d00527, type: 3}
       propertyPath: m_Name
       value: LightCube (14)
@@ -9904,14 +9907,14 @@ PrefabInstance:
     - target: {fileID: 934589179913204991, guid: 25271615e4908894ebf3178638d00527, type: 3}
       propertyPath: m_Mesh
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 540558743}
     - target: {fileID: 4269876012068671683, guid: 25271615e4908894ebf3178638d00527, type: 3}
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 540558743}
     - target: {fileID: 4269876012068671683, guid: 25271615e4908894ebf3178638d00527, type: 3}
       propertyPath: m_VersionIndex
-      value: 1547
+      value: 1553
       objectReference: {fileID: 0}
     - target: {fileID: 5944273872471166272, guid: 25271615e4908894ebf3178638d00527, type: 3}
       propertyPath: m_LocalPosition.x
@@ -9956,7 +9959,7 @@ PrefabInstance:
     - target: {fileID: 7199126745389518901, guid: 25271615e4908894ebf3178638d00527, type: 3}
       propertyPath: m_Mesh
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 540558743}
     - target: {fileID: 9030214854000572041, guid: 25271615e4908894ebf3178638d00527, type: 3}
       propertyPath: m_Name
       value: LightCube (34)
@@ -9982,14 +9985,14 @@ PrefabInstance:
     - target: {fileID: 934589179913204991, guid: 25271615e4908894ebf3178638d00527, type: 3}
       propertyPath: m_Mesh
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1454364810}
     - target: {fileID: 4269876012068671683, guid: 25271615e4908894ebf3178638d00527, type: 3}
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 1454364810}
     - target: {fileID: 4269876012068671683, guid: 25271615e4908894ebf3178638d00527, type: 3}
       propertyPath: m_VersionIndex
-      value: 1556
+      value: 1562
       objectReference: {fileID: 0}
     - target: {fileID: 5944273872471166272, guid: 25271615e4908894ebf3178638d00527, type: 3}
       propertyPath: m_LocalPosition.x
@@ -10034,7 +10037,7 @@ PrefabInstance:
     - target: {fileID: 7199126745389518901, guid: 25271615e4908894ebf3178638d00527, type: 3}
       propertyPath: m_Mesh
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1454364810}
     - target: {fileID: 9030214854000572041, guid: 25271615e4908894ebf3178638d00527, type: 3}
       propertyPath: m_Name
       value: LightCube (6)
@@ -10729,14 +10732,14 @@ PrefabInstance:
     - target: {fileID: 934589179913204991, guid: 25271615e4908894ebf3178638d00527, type: 3}
       propertyPath: m_Mesh
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 579691923}
     - target: {fileID: 4269876012068671683, guid: 25271615e4908894ebf3178638d00527, type: 3}
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 579691923}
     - target: {fileID: 4269876012068671683, guid: 25271615e4908894ebf3178638d00527, type: 3}
       propertyPath: m_VersionIndex
-      value: 1556
+      value: 1562
       objectReference: {fileID: 0}
     - target: {fileID: 5944273872471166272, guid: 25271615e4908894ebf3178638d00527, type: 3}
       propertyPath: m_LocalPosition.x
@@ -10781,7 +10784,7 @@ PrefabInstance:
     - target: {fileID: 7199126745389518901, guid: 25271615e4908894ebf3178638d00527, type: 3}
       propertyPath: m_Mesh
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 579691923}
     - target: {fileID: 9030214854000572041, guid: 25271615e4908894ebf3178638d00527, type: 3}
       propertyPath: m_Name
       value: LightCube (28)
@@ -10980,14 +10983,14 @@ PrefabInstance:
     - target: {fileID: 934589179913204991, guid: 25271615e4908894ebf3178638d00527, type: 3}
       propertyPath: m_Mesh
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 624536880}
     - target: {fileID: 4269876012068671683, guid: 25271615e4908894ebf3178638d00527, type: 3}
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 624536880}
     - target: {fileID: 4269876012068671683, guid: 25271615e4908894ebf3178638d00527, type: 3}
       propertyPath: m_VersionIndex
-      value: 1547
+      value: 1553
       objectReference: {fileID: 0}
     - target: {fileID: 5944273872471166272, guid: 25271615e4908894ebf3178638d00527, type: 3}
       propertyPath: m_LocalPosition.x
@@ -11032,7 +11035,7 @@ PrefabInstance:
     - target: {fileID: 7199126745389518901, guid: 25271615e4908894ebf3178638d00527, type: 3}
       propertyPath: m_Mesh
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 624536880}
     - target: {fileID: 9030214854000572041, guid: 25271615e4908894ebf3178638d00527, type: 3}
       propertyPath: m_Name
       value: LightCube (26)
@@ -11236,14 +11239,14 @@ PrefabInstance:
     - target: {fileID: 934589179913204991, guid: 25271615e4908894ebf3178638d00527, type: 3}
       propertyPath: m_Mesh
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 2081208238}
     - target: {fileID: 4269876012068671683, guid: 25271615e4908894ebf3178638d00527, type: 3}
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 2081208238}
     - target: {fileID: 4269876012068671683, guid: 25271615e4908894ebf3178638d00527, type: 3}
       propertyPath: m_VersionIndex
-      value: 1547
+      value: 1553
       objectReference: {fileID: 0}
     - target: {fileID: 5944273872471166272, guid: 25271615e4908894ebf3178638d00527, type: 3}
       propertyPath: m_LocalPosition.x
@@ -11288,7 +11291,7 @@ PrefabInstance:
     - target: {fileID: 7199126745389518901, guid: 25271615e4908894ebf3178638d00527, type: 3}
       propertyPath: m_Mesh
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 2081208238}
     - target: {fileID: 9030214854000572041, guid: 25271615e4908894ebf3178638d00527, type: 3}
       propertyPath: m_Name
       value: LightCube (18)
@@ -11675,14 +11678,14 @@ PrefabInstance:
     - target: {fileID: 934589179913204991, guid: 25271615e4908894ebf3178638d00527, type: 3}
       propertyPath: m_Mesh
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1492698425}
     - target: {fileID: 4269876012068671683, guid: 25271615e4908894ebf3178638d00527, type: 3}
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 1492698425}
     - target: {fileID: 4269876012068671683, guid: 25271615e4908894ebf3178638d00527, type: 3}
       propertyPath: m_VersionIndex
-      value: 1556
+      value: 1562
       objectReference: {fileID: 0}
     - target: {fileID: 5944273872471166272, guid: 25271615e4908894ebf3178638d00527, type: 3}
       propertyPath: m_LocalPosition.x
@@ -11727,7 +11730,7 @@ PrefabInstance:
     - target: {fileID: 7199126745389518901, guid: 25271615e4908894ebf3178638d00527, type: 3}
       propertyPath: m_Mesh
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1492698425}
     - target: {fileID: 9030214854000572041, guid: 25271615e4908894ebf3178638d00527, type: 3}
       propertyPath: m_Name
       value: LightCube (5)
@@ -11748,14 +11751,14 @@ PrefabInstance:
     - target: {fileID: 934589179913204991, guid: 25271615e4908894ebf3178638d00527, type: 3}
       propertyPath: m_Mesh
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 305322747}
     - target: {fileID: 4269876012068671683, guid: 25271615e4908894ebf3178638d00527, type: 3}
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 305322747}
     - target: {fileID: 4269876012068671683, guid: 25271615e4908894ebf3178638d00527, type: 3}
       propertyPath: m_VersionIndex
-      value: 1547
+      value: 1553
       objectReference: {fileID: 0}
     - target: {fileID: 5944273872471166272, guid: 25271615e4908894ebf3178638d00527, type: 3}
       propertyPath: m_LocalPosition.x
@@ -11800,7 +11803,7 @@ PrefabInstance:
     - target: {fileID: 7199126745389518901, guid: 25271615e4908894ebf3178638d00527, type: 3}
       propertyPath: m_Mesh
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 305322747}
     - target: {fileID: 9030214854000572041, guid: 25271615e4908894ebf3178638d00527, type: 3}
       propertyPath: m_Name
       value: LightCube (25)

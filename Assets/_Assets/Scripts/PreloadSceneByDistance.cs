@@ -17,8 +17,8 @@ public class PreloadSceneByDistance : MonoBehaviour
 
     private AsyncOperation preloadOperation;
 
-    private bool isReady = false;
-    private bool hasActivated = false;
+    public bool isReady = false;
+    public bool hasActivated = false;
 
     private void Start()
     {
@@ -29,8 +29,8 @@ public class PreloadSceneByDistance : MonoBehaviour
 
     private void Update()
     {
-        if (!isReady || hasActivated)
-            return;
+        // if (!isReady || hasActivated)
+        //     return;
 
         distance = Vector3.Distance(transform.position, player.position);
 
