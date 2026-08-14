@@ -3983,7 +3983,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c1d695e709a81344b5d7d7a0f3ddd0b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PreloadSceneTrigger
-  sceneName: 
+  sceneName: 11 trailer 2
 --- !u!114 &1777534451
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3996,7 +3996,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3130a65688387cc4b9dc7a90f4c60b84, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PreloadSceneByDistance
-  sceneName: 
+  sceneName: 11 trailer 2
   player: {fileID: 1602469333}
   activationDistance: 1
   distance: 0

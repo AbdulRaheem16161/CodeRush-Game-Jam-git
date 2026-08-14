@@ -23,86 +23,172 @@ namespace Akila.FPSFramework
 
         public Firearm firearm { get; set; }
 
-        CanvasGroup canvasGroup;
+        private CanvasGroup canvasGroup;
+        private bool eventRegistered = false;
 
         private void Awake()
         {
-            PerformTextUpdate();
-
             canvasGroup = gameObject.GetOrAddComponent<CanvasGroup>();
-
             canvasGroup.alpha = 0;
 
             if (fireModeSwitchAlert != null)
                 fireModeSwitchAlert.SetActive(false);
+
+            PerformTextUpdate();
         }
 
         private void Start()
         {
-            firearm.events.OnFireModeChange.AddListener(() =>
-            {
-                if (fireModeSwitchAlert)
-                {
-                    fireModeSwitchAlert.SetActive(true);
-
-                    if (fireModeSwitchAlert.GetComponentInChildren<TextMeshProUGUI>())
-                    {
-                        TextMeshProUGUI textMeshProUGUI = fireModeSwitchAlert.GetComponentInChildren<TextMeshProUGUI>();
-
-                        textMeshProUGUI.text = $"Fire Mode: {firearm.currentFireMode}";
-
-                        CancelInvoke(nameof(HideFireModeAlert));
-
-                        Invoke(nameof(HideFireModeAlert), 2);
-                    }
-                }
-            });
+            TryInitializeFirearm();
 
             Invoke(nameof(Show), Time.fixedDeltaTime);
         }
 
-        private void Show()
-        {
-            canvasGroup.alpha = 1;
-        }
-
         private void Update()
         {
+            if (firearm == null)
+            {
+                TryInitializeFirearm();
+                return;
+            }
+
             PerformTextUpdate();
+        }
+
+        private void TryInitializeFirearm()
+        {
+            if (firearm == null)
+                return;
+
+            if (eventRegistered)
+                return;
+
+            if (firearm.events == null)
+            {
+                Debug.LogWarning(
+                    $"[FirearmHUD] Firearm '{firearm.name}' exists, but its events object is null."
+                );
+
+                return;
+            }
+
+            firearm.events.OnFireModeChange.AddListener(OnFireModeChange);
+
+            eventRegistered = true;
+
+            PerformTextUpdate();
+
+            Debug.Log(
+                $"[FirearmHUD] Successfully initialized with firearm: {firearm.name}"
+            );
+        }
+
+        private void OnFireModeChange()
+        {
+            if (fireModeSwitchAlert == null)
+                return;
+
+            fireModeSwitchAlert.SetActive(true);
+
+            TextMeshProUGUI textMeshProUGUI =
+                fireModeSwitchAlert.GetComponentInChildren<TextMeshProUGUI>();
+
+            if (textMeshProUGUI != null)
+            {
+                textMeshProUGUI.text =
+                    $"Fire Mode: {firearm.currentFireMode}";
+            }
+
+            CancelInvoke(nameof(HideFireModeAlert));
+
+            Invoke(nameof(HideFireModeAlert), 2f);
+        }
+
+        private void Show()
+        {
+            if (canvasGroup != null)
+                canvasGroup.alpha = 1;
         }
 
         private void HideFireModeAlert()
         {
-            fireModeSwitchAlert?.SetActive(false);
+            if (fireModeSwitchAlert != null)
+                fireModeSwitchAlert.SetActive(false);
         }
 
         protected virtual void PerformTextUpdate()
         {
-            if (!firearm)
-            {
+            if (firearm == null)
                 return;
-            }
 
             gameObject.SetActive(firearm.isHudActive);
 
-            firearmNameText.SetText(firearm.Name);
-            ammoTypeNameText.SetText(firearm.ammoProfile.identifier.displayName);
-            remainingAmmoText.SetText(firearm.remainingAmmoCount.ToString());
-            remainingAmmoTypeText.SetText(firearm.remainingAmmoTypeCount.ToString());
+            if (firearmNameText != null)
+                firearmNameText.SetText(firearm.Name);
 
-            outOfAmmoAlert.SetActive(firearm.remainingAmmoCount <= 0);
-            lowAmmoAlert.SetActive(firearm.remainingAmmoCount <= firearm.preset.magazineCapacity / 3 && firearm.remainingAmmoCount > 0);
+            if (ammoTypeNameText != null &&
+                firearm.ammoProfile != null &&
+                firearm.ammoProfile.identifier != null)
+            {
+                ammoTypeNameText.SetText(
+                    firearm.ammoProfile.identifier.displayName
+                );
+            }
 
-            remainingAmmoText.color = firearm.remainingAmmoCount <= firearm.preset.magazineCapacity / 3 ? alertColor : normalColor;
-            remainingAmmoTypeText.color = firearm.remainingAmmoTypeCount <= 0 ? alertColor : normalColor;
+            if (remainingAmmoText != null)
+            {
+                remainingAmmoText.SetText(
+                    firearm.remainingAmmoCount.ToString()
+                );
+
+                remainingAmmoText.color =
+                    firearm.remainingAmmoCount <=
+                    firearm.preset.magazineCapacity / 3
+                        ? alertColor
+                        : normalColor;
+            }
+
+            if (remainingAmmoTypeText != null)
+            {
+                remainingAmmoTypeText.SetText(
+                    firearm.remainingAmmoTypeCount.ToString()
+                );
+
+                remainingAmmoTypeText.color =
+                    firearm.remainingAmmoTypeCount <= 0
+                        ? alertColor
+                        : normalColor;
+            }
+
+            if (outOfAmmoAlert != null)
+            {
+                outOfAmmoAlert.SetActive(
+                    firearm.remainingAmmoCount <= 0
+                );
+            }
+
+            if (lowAmmoAlert != null)
+            {
+                lowAmmoAlert.SetActive(
+                    firearm.remainingAmmoCount <=
+                    firearm.preset.magazineCapacity / 3 &&
+                    firearm.remainingAmmoCount > 0
+                );
+            }
         }
 
-        private void LateUpdate()
+        private void OnDestroy()
         {
-            if(firearm == null)
+            if (firearm != null &&
+                firearm.events != null &&
+                eventRegistered)
             {
-                Destroy(gameObject);
+                firearm.events.OnFireModeChange.RemoveListener(
+                    OnFireModeChange
+                );
             }
+
+            CancelInvoke();
         }
     }
 }

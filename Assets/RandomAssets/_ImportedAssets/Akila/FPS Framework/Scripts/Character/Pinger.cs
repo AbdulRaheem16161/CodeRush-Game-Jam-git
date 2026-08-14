@@ -2,8 +2,6 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine.InputSystem;
 using UnityEngine;
-using System.Threading.Tasks;
-using static UnityEngine.GraphicsBuffer;
 
 namespace Akila.FPSFramework
 {
@@ -20,24 +18,106 @@ namespace Akila.FPSFramework
 
         public List<Ping> pings = new List<Ping>();
 
-        private void Start()
+        private void OnEnable()
         {
+            if (inputAction == null)
+            {
+                Debug.LogError(
+                    $"[Pinger] InputAction is not assigned on {gameObject.name}."
+                );
+
+                return;
+            }
+
             inputAction.Enable();
-            inputAction.performed += context => LookAndPing();
+            inputAction.performed += OnPingInput;
+        }
+
+        private void OnDisable()
+        {
+            if (inputAction == null)
+                return;
+
+            inputAction.performed -= OnPingInput;
+            inputAction.Disable();
+        }
+
+        private void OnDestroy()
+        {
+            if (inputAction == null)
+                return;
+
+            inputAction.performed -= OnPingInput;
+            inputAction.Disable();
+        }
+
+        private void OnPingInput(InputAction.CallbackContext context)
+        {
+            if (!this)
+                return;
+
+            if (!isActiveAndEnabled)
+                return;
+
+            LookAndPing();
         }
 
         private void LookAndPing()
         {
-            if (Physics.Raycast(transform.position, transform.forward, out RaycastHit hit, range, pingableLayers))
+            if (canvas == null)
+            {
+                Debug.LogError(
+                    $"[Pinger] Canvas is not assigned on {gameObject.name}. " +
+                    "Assign a Canvas in the Inspector."
+                );
+
+                return;
+            }
+
+            if (ping == null)
+            {
+                Debug.LogError(
+                    $"[Pinger] Ping prefab is not assigned on {gameObject.name}."
+                );
+
+                return;
+            }
+
+            if (Physics.Raycast(
+                transform.position,
+                transform.forward,
+                out RaycastHit hit,
+                range,
+                pingableLayers))
             {
                 Ping newPing = Instantiate(ping, canvas.transform);
-                newPing.GetComponent<FloatingRect>().position = hit.point;
+
+                if (newPing == null)
+                    return;
+
+                FloatingRect floatingRect =
+                    newPing.GetComponent<FloatingRect>();
+
+                if (floatingRect != null)
+                {
+                    floatingRect.position = hit.point;
+                }
+                else
+                {
+                    Debug.LogWarning(
+                        $"[Pinger] Ping '{newPing.name}' does not have a FloatingRect component."
+                    );
+                }
+
                 pings.Add(newPing);
 
                 while (pings.Count > maxPings)
                 {
                     if (pings[0] != null)
+                    {
                         Destroy(pings[0].gameObject);
+                    }
+
                     pings.RemoveAt(0);
                 }
 
@@ -47,20 +127,20 @@ namespace Akila.FPSFramework
             }
         }
 
-        private IEnumerator AutoDestroyPing(Ping ping)
+        private IEnumerator AutoDestroyPing(Ping pingToDestroy)
         {
             yield return new WaitForSeconds(pingLifetime);
-            if (ping != null)
+
+            if (pingToDestroy != null)
             {
-                pings.Remove(ping);
-                Destroy(ping.gameObject);
+                pings.Remove(pingToDestroy);
+
+                Destroy(pingToDestroy.gameObject);
             }
         }
 
-
         public virtual void OnPinged(Ping ping)
         {
-
         }
     }
 }
